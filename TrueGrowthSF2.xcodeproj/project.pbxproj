@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F41C2CF821C9C932008CD3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C2CF721C9C932008CD3D6 /* AppDelegate.swift */; };
-		F41C2CFA21C9C932008CD3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C2CF921C9C932008CD3D6 /* ViewController.swift */; };
+		F41C2CFA21C9C932008CD3D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C2CF921C9C932008CD3D6 /* SecondViewController.swift */; };
 		F41C2CFD21C9C932008CD3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C2CFB21C9C932008CD3D6 /* Main.storyboard */; };
 		F41C2CFF21C9C934008CD3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41C2CFE21C9C934008CD3D6 /* Assets.xcassets */; };
 		F41C2D0221C9C934008CD3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C2D0021C9C934008CD3D6 /* LaunchScreen.storyboard */; };
+		F41C2D0A21C9CE94008CD3D6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C2D0921C9CE94008CD3D6 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F41C2CF421C9C932008CD3D6 /* TrueGrowthSF2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueGrowthSF2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41C2CF721C9C932008CD3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F41C2CF921C9C932008CD3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F41C2CF921C9C932008CD3D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F41C2CFC21C9C932008CD3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F41C2CFE21C9C934008CD3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41C2D0121C9C934008CD3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F41C2D0321C9C934008CD3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41C2D0921C9CE94008CD3D6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				F41C2CF721C9C932008CD3D6 /* AppDelegate.swift */,
-				F41C2CF921C9C932008CD3D6 /* ViewController.swift */,
+				F41C2CF921C9C932008CD3D6 /* SecondViewController.swift */,
 				F41C2CFB21C9C932008CD3D6 /* Main.storyboard */,
 				F41C2CFE21C9C934008CD3D6 /* Assets.xcassets */,
 				F41C2D0021C9C934008CD3D6 /* LaunchScreen.storyboard */,
 				F41C2D0321C9C934008CD3D6 /* Info.plist */,
+				F41C2D0921C9CE94008CD3D6 /* FirstViewController.swift */,
 			);
 			path = TrueGrowthSF2;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41C2CFA21C9C932008CD3D6 /* ViewController.swift in Sources */,
+				F41C2D0A21C9CE94008CD3D6 /* FirstViewController.swift in Sources */,
+				F41C2CFA21C9C932008CD3D6 /* SecondViewController.swift in Sources */,
 				F41C2CF821C9C932008CD3D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTU3MN4DTE;
 				INFOPLIST_FILE = TrueGrowthSF2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Telegraph-Hill-Technology.TrueGrowthSF2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Telegraph-Hill-Technologies.TrueGrowthSF2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTU3MN4DTE;
 				INFOPLIST_FILE = TrueGrowthSF2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Telegraph-Hill-Technology.TrueGrowthSF2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Telegraph-Hill-Technologies.TrueGrowthSF2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
