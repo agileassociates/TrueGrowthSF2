@@ -1,0 +1,1130 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FeedViewController"
+provides-nominal:
+- "13TrueGrowthSF218FeedViewControllerC"
+provides-member:
+- ["13TrueGrowthSF218FeedViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "imagePickerController"
+- "postBtnPressed"
+- "progressView"
+- "viewDidLoad"
+depends-top-level:
+- !private "*"
+- !private "/"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Double"
+- "FeedViewController"
+- !private "Float"
+- !private "FloatLiteralType"
+- !private "Storage"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UIImage"
+- "UIImagePickerController"
+- "UIImagePickerControllerDelegate"
+- "UINavigationControllerDelegate"
+- "UIProgressView"
+- "UIViewController"
+- !private "kUTTypeImage"
+- !private "print"
+depends-member:
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "progress"]
+- !private ["So15CALayerDelegateP", "setProgress"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Float"]
+- ["s7CVarArgP", "InfoKey"]
+- !private ["s7CVarArgP", "SourceType"]
+- !private ["s7CVarArgP", "Storage"]
+- !private ["s7CVarArgP", "UIImagePickerController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "child"]
+- !private ["s7CVarArgP", "completedUnitCount"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "dismiss"]
+- ["s7CVarArgP", "imagePickerController"]
+- ["s7CVarArgP", "imagePickerControllerDidCancel"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "kUTTypeImage"]
+- !private ["s7CVarArgP", "mediaTypes"]
+- ["s7CVarArgP", "navigationController"]
+- ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "progress"]
+- !private ["s7CVarArgP", "progressView"]
+- !private ["s7CVarArgP", "putData"]
+- !private ["s7CVarArgP", "reference"]
+- !private ["s7CVarArgP", "setProgress"]
+- !private ["s7CVarArgP", "sourceType"]
+- !private ["s7CVarArgP", "storage"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "totalUnitCount"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- ["s28CustomDebugStringConvertibleP", "InfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "SourceType"]
+- !private ["s28CustomDebugStringConvertibleP", "Storage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImagePickerController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
+- !private ["s28CustomDebugStringConvertibleP", "completedUnitCount"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerController"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "kUTTypeImage"]
+- !private ["s28CustomDebugStringConvertibleP", "mediaTypes"]
+- ["s28CustomDebugStringConvertibleP", "navigationController"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "progress"]
+- !private ["s28CustomDebugStringConvertibleP", "progressView"]
+- !private ["s28CustomDebugStringConvertibleP", "putData"]
+- !private ["s28CustomDebugStringConvertibleP", "reference"]
+- !private ["s28CustomDebugStringConvertibleP", "setProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceType"]
+- !private ["s28CustomDebugStringConvertibleP", "storage"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "totalUnitCount"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isHidden"]
+- !private ["s17CustomReflectableP", "progress"]
+- !private ["s17CustomReflectableP", "setProgress"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- ["s23CustomStringConvertibleP", "InfoKey"]
+- !private ["s23CustomStringConvertibleP", "SourceType"]
+- !private ["s23CustomStringConvertibleP", "Storage"]
+- !private ["s23CustomStringConvertibleP", "UIImagePickerController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "completedUnitCount"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- ["s23CustomStringConvertibleP", "imagePickerController"]
+- ["s23CustomStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "kUTTypeImage"]
+- !private ["s23CustomStringConvertibleP", "mediaTypes"]
+- ["s23CustomStringConvertibleP", "navigationController"]
+- ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "progress"]
+- !private ["s23CustomStringConvertibleP", "progressView"]
+- !private ["s23CustomStringConvertibleP", "putData"]
+- !private ["s23CustomStringConvertibleP", "reference"]
+- !private ["s23CustomStringConvertibleP", "setProgress"]
+- !private ["s23CustomStringConvertibleP", "sourceType"]
+- !private ["s23CustomStringConvertibleP", "storage"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "totalUnitCount"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isHidden"]
+- !private ["Se", "progress"]
+- !private ["Se", "setProgress"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isHidden"]
+- !private ["SE", "progress"]
+- !private ["SE", "setProgress"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Float"]
+- ["SQ", "InfoKey"]
+- !private ["SQ", "SourceType"]
+- !private ["SQ", "Storage"]
+- !private ["SQ", "UIImagePickerController"]
+- ["SQ", ""]
+- !private ["SQ", "child"]
+- !private ["SQ", "completedUnitCount"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "didReceiveMemoryWarning"]
+- !private ["SQ", "dismiss"]
+- ["SQ", "imagePickerController"]
+- ["SQ", "imagePickerControllerDidCancel"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "kUTTypeImage"]
+- !private ["SQ", "mediaTypes"]
+- ["SQ", "navigationController"]
+- ["SQ", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SQ", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SQ", "observe"]
+- !private ["SQ", "originalImage"]
+- !private ["SQ", "photoLibrary"]
+- !private ["SQ", "present"]
+- !private ["SQ", "print"]
+- !private ["SQ", "progress"]
+- !private ["SQ", "progressView"]
+- !private ["SQ", "putData"]
+- !private ["SQ", "reference"]
+- !private ["SQ", "setProgress"]
+- !private ["SQ", "sourceType"]
+- !private ["SQ", "storage"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["SQ", "totalUnitCount"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "isHidden"]
+- !private ["s23ExpressibleByNilLiteralP", "progress"]
+- !private ["s23ExpressibleByNilLiteralP", "setProgress"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "Double"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "Float"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "Storage"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "String"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "UIImage"]
+- ["13TrueGrowthSF218FeedViewControllerC", "UIImagePickerController"]
+- ["13TrueGrowthSF218FeedViewControllerC", "UIProgressView"]
+- ["13TrueGrowthSF218FeedViewControllerC", "deinit"]
+- ["13TrueGrowthSF218FeedViewControllerC", "didReceiveMemoryWarning"]
+- ["13TrueGrowthSF218FeedViewControllerC", "imagePickerController"]
+- ["13TrueGrowthSF218FeedViewControllerC", "imagePickerControllerDidCancel"]
+- ["13TrueGrowthSF218FeedViewControllerC", "init"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "kUTTypeImage"]
+- ["13TrueGrowthSF218FeedViewControllerC", "navigationController"]
+- ["13TrueGrowthSF218FeedViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["13TrueGrowthSF218FeedViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["13TrueGrowthSF218FeedViewControllerC", "postBtnPressed"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "present"]
+- !private ["13TrueGrowthSF218FeedViewControllerC", "print"]
+- ["13TrueGrowthSF218FeedViewControllerC", "progressView"]
+- ["13TrueGrowthSF218FeedViewControllerC", "viewDidLoad"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Double"]
+- !private ["SH", "Float"]
+- ["SH", "InfoKey"]
+- !private ["SH", "SourceType"]
+- !private ["SH", "Storage"]
+- !private ["SH", "UIImagePickerController"]
+- ["SH", ""]
+- !private ["SH", "child"]
+- !private ["SH", "completedUnitCount"]
+- !private ["SH", "delegate"]
+- !private ["SH", "didReceiveMemoryWarning"]
+- !private ["SH", "dismiss"]
+- ["SH", "imagePickerController"]
+- ["SH", "imagePickerControllerDidCancel"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "kUTTypeImage"]
+- !private ["SH", "mediaTypes"]
+- ["SH", "navigationController"]
+- ["SH", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SH", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SH", "observe"]
+- !private ["SH", "originalImage"]
+- !private ["SH", "photoLibrary"]
+- !private ["SH", "present"]
+- !private ["SH", "print"]
+- !private ["SH", "progress"]
+- !private ["SH", "progressView"]
+- !private ["SH", "putData"]
+- !private ["SH", "reference"]
+- !private ["SH", "setProgress"]
+- !private ["SH", "sourceType"]
+- !private ["SH", "storage"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["SH", "totalUnitCount"]
+- !private ["SH", "viewDidLoad"]
+- !private ["So30UIImagePickerControllerInfoKeya", "originalImage"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "Float"]
+- ["So8NSCodingP", "InfoKey"]
+- !private ["So8NSCodingP", "SourceType"]
+- !private ["So8NSCodingP", "Storage"]
+- !private ["So8NSCodingP", "UIImagePickerController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "dismiss"]
+- ["So8NSCodingP", "imagePickerController"]
+- ["So8NSCodingP", "imagePickerControllerDidCancel"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So8NSCodingP", "kUTTypeImage"]
+- !private ["So8NSCodingP", "mediaTypes"]
+- ["So8NSCodingP", "navigationController"]
+- ["So8NSCodingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSCodingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "progress"]
+- !private ["So8NSCodingP", "progressView"]
+- !private ["So8NSCodingP", "setProgress"]
+- !private ["So8NSCodingP", "sourceType"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Double"]
+- !private ["So26NSExtensionRequestHandlingP", "Float"]
+- ["So26NSExtensionRequestHandlingP", "InfoKey"]
+- !private ["So26NSExtensionRequestHandlingP", "SourceType"]
+- !private ["So26NSExtensionRequestHandlingP", "Storage"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImagePickerController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- ["So26NSExtensionRequestHandlingP", "imagePickerController"]
+- ["So26NSExtensionRequestHandlingP", "imagePickerControllerDidCancel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "kUTTypeImage"]
+- !private ["So26NSExtensionRequestHandlingP", "mediaTypes"]
+- ["So26NSExtensionRequestHandlingP", "navigationController"]
+- ["So26NSExtensionRequestHandlingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So26NSExtensionRequestHandlingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "progressView"]
+- !private ["So26NSExtensionRequestHandlingP", "sourceType"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "InfoKey"]
+- !private ["So8NSObjectC", "SourceType"]
+- !private ["So8NSObjectC", "Storage"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImagePickerController"]
+- ["So8NSObjectC", "UIProgressView"]
+- !private ["So8NSObjectC", "child"]
+- !private ["So8NSObjectC", "completedUnitCount"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "imagePickerController"]
+- ["So8NSObjectC", "imagePickerControllerDidCancel"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "kUTTypeImage"]
+- !private ["So8NSObjectC", "mediaTypes"]
+- ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSObjectC", "observe"]
+- ["So8NSObjectC", "postBtnPressed"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "progress"]
+- ["So8NSObjectC", "progressView"]
+- !private ["So8NSObjectC", "putData"]
+- !private ["So8NSObjectC", "reference"]
+- !private ["So8NSObjectC", "setProgress"]
+- !private ["So8NSObjectC", "sourceType"]
+- !private ["So8NSObjectC", "storage"]
+- !private ["So8NSObjectC", "totalUnitCount"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Float"]
+- ["So8NSObjectP", "InfoKey"]
+- !private ["So8NSObjectP", "SourceType"]
+- !private ["So8NSObjectP", "Storage"]
+- !private ["So8NSObjectP", "UIImagePickerController"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "child"]
+- !private ["So8NSObjectP", "completedUnitCount"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectP", "dismiss"]
+- ["So8NSObjectP", "imagePickerController"]
+- ["So8NSObjectP", "imagePickerControllerDidCancel"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "kUTTypeImage"]
+- !private ["So8NSObjectP", "mediaTypes"]
+- ["So8NSObjectP", "navigationController"]
+- ["So8NSObjectP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSObjectP", "observe"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "progress"]
+- !private ["So8NSObjectP", "progressView"]
+- !private ["So8NSObjectP", "putData"]
+- !private ["So8NSObjectP", "reference"]
+- !private ["So8NSObjectP", "setProgress"]
+- !private ["So8NSObjectP", "sourceType"]
+- !private ["So8NSObjectP", "storage"]
+- !private ["So8NSObjectP", "totalUnitCount"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["Sj", "init"]
+- !private ["Sq", "isHidden"]
+- !private ["Sq", "progress"]
+- !private ["Sq", "setProgress"]
+- !private ["So10NSProgressC", "completedUnitCount"]
+- !private ["So10NSProgressC", "totalUnitCount"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "originalImage"]
+- !private ["SY", "photoLibrary"]
+- !private ["SY", "progress"]
+- !private ["SY", "success"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["So33UIImagePickerControllerSourceTypeV", "photoLibrary"]
+- !private ["So10FIRStorageC", "reference"]
+- !private ["So10FIRStorageC", "storage"]
+- !private ["So24FIRStorageObservableTaskC", "observe"]
+- !private ["So19FIRStorageReferenceC", "child"]
+- !private ["So19FIRStorageReferenceC", "putData"]
+- !private ["So14FIRStorageTaskC", "observe"]
+- !private ["So24FIRStorageTaskManagementP", "observe"]
+- !private ["So22FIRStorageTaskSnapshotC", "progress"]
+- !private ["So20FIRStorageTaskStatusV", "progress"]
+- !private ["So20FIRStorageTaskStatusV", "success"]
+- !private ["So20FIRStorageUploadTaskC", "observe"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So29UIAccessibilityIdentificationP", "progress"]
+- !private ["So29UIAccessibilityIdentificationP", "setProgress"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "progress"]
+- !private ["So12UIAppearanceP", "setProgress"]
+- !private ["So21UIAppearanceContainerP", "Double"]
+- !private ["So21UIAppearanceContainerP", "Float"]
+- ["So21UIAppearanceContainerP", "InfoKey"]
+- !private ["So21UIAppearanceContainerP", "SourceType"]
+- !private ["So21UIAppearanceContainerP", "Storage"]
+- !private ["So21UIAppearanceContainerP", "UIImagePickerController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- ["So21UIAppearanceContainerP", "imagePickerController"]
+- ["So21UIAppearanceContainerP", "imagePickerControllerDidCancel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "kUTTypeImage"]
+- !private ["So21UIAppearanceContainerP", "mediaTypes"]
+- ["So21UIAppearanceContainerP", "navigationController"]
+- ["So21UIAppearanceContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UIAppearanceContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "progress"]
+- !private ["So21UIAppearanceContainerP", "progressView"]
+- !private ["So21UIAppearanceContainerP", "setProgress"]
+- !private ["So21UIAppearanceContainerP", "sourceType"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Double"]
+- !private ["So18UIContentContainerP", "Float"]
+- ["So18UIContentContainerP", "InfoKey"]
+- !private ["So18UIContentContainerP", "SourceType"]
+- !private ["So18UIContentContainerP", "Storage"]
+- !private ["So18UIContentContainerP", "UIImagePickerController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- ["So18UIContentContainerP", "imagePickerController"]
+- ["So18UIContentContainerP", "imagePickerControllerDidCancel"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "kUTTypeImage"]
+- !private ["So18UIContentContainerP", "mediaTypes"]
+- ["So18UIContentContainerP", "navigationController"]
+- ["So18UIContentContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIContentContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "progressView"]
+- !private ["So18UIContentContainerP", "sourceType"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "progress"]
+- !private ["So17UICoordinateSpaceP", "setProgress"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "progress"]
+- !private ["So13UIDynamicItemP", "setProgress"]
+- !private ["So18UIFocusEnvironmentP", "Double"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- ["So18UIFocusEnvironmentP", "InfoKey"]
+- !private ["So18UIFocusEnvironmentP", "SourceType"]
+- !private ["So18UIFocusEnvironmentP", "Storage"]
+- !private ["So18UIFocusEnvironmentP", "UIImagePickerController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- ["So18UIFocusEnvironmentP", "imagePickerController"]
+- ["So18UIFocusEnvironmentP", "imagePickerControllerDidCancel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "kUTTypeImage"]
+- !private ["So18UIFocusEnvironmentP", "mediaTypes"]
+- ["So18UIFocusEnvironmentP", "navigationController"]
+- ["So18UIFocusEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIFocusEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "progress"]
+- !private ["So18UIFocusEnvironmentP", "progressView"]
+- !private ["So18UIFocusEnvironmentP", "setProgress"]
+- !private ["So18UIFocusEnvironmentP", "sourceType"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "progress"]
+- !private ["So11UIFocusItemP", "setProgress"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "progress"]
+- !private ["So20UIFocusItemContainerP", "setProgress"]
+- !private ["So7UIImageC", "jpegData"]
+- ["So23UIImagePickerControllerC", "InfoKey"]
+- !private ["So23UIImagePickerControllerC", "SourceType"]
+- !private ["So23UIImagePickerControllerC", "delegate"]
+- !private ["So23UIImagePickerControllerC", "dismiss"]
+- !private ["So23UIImagePickerControllerC", "init"]
+- !private ["So23UIImagePickerControllerC", "mediaTypes"]
+- !private ["So23UIImagePickerControllerC", "sourceType"]
+- !private ["So31UIImagePickerControllerDelegateP", "Double"]
+- !private ["So31UIImagePickerControllerDelegateP", "Float"]
+- !private ["So31UIImagePickerControllerDelegateP", "Storage"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIImagePickerController"]
+- ["So31UIImagePickerControllerDelegateP", ""]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerController"]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So31UIImagePickerControllerDelegateP", "kUTTypeImage"]
+- ["So31UIImagePickerControllerDelegateP", "navigationController"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So31UIImagePickerControllerDelegateP", "present"]
+- !private ["So31UIImagePickerControllerDelegateP", "print"]
+- !private ["So31UIImagePickerControllerDelegateP", "progressView"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- ["So22UINavigationControllerC", "InfoKey"]
+- !private ["So22UINavigationControllerC", "SourceType"]
+- !private ["So22UINavigationControllerC", "delegate"]
+- !private ["So22UINavigationControllerC", "dismiss"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "mediaTypes"]
+- !private ["So22UINavigationControllerC", "sourceType"]
+- !private ["So30UINavigationControllerDelegateP", "Double"]
+- !private ["So30UINavigationControllerDelegateP", "Float"]
+- !private ["So30UINavigationControllerDelegateP", "Storage"]
+- !private ["So30UINavigationControllerDelegateP", "UIImagePickerController"]
+- ["So30UINavigationControllerDelegateP", ""]
+- ["So30UINavigationControllerDelegateP", "imagePickerController"]
+- ["So30UINavigationControllerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So30UINavigationControllerDelegateP", "kUTTypeImage"]
+- ["So30UINavigationControllerDelegateP", "navigationController"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UINavigationControllerDelegateP", "present"]
+- !private ["So30UINavigationControllerDelegateP", "print"]
+- !private ["So30UINavigationControllerDelegateP", "progressView"]
+- !private ["So30UIPasteConfigurationSupportingP", "Double"]
+- !private ["So30UIPasteConfigurationSupportingP", "Float"]
+- ["So30UIPasteConfigurationSupportingP", "InfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "SourceType"]
+- !private ["So30UIPasteConfigurationSupportingP", "Storage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImagePickerController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- ["So30UIPasteConfigurationSupportingP", "imagePickerController"]
+- ["So30UIPasteConfigurationSupportingP", "imagePickerControllerDidCancel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "kUTTypeImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "mediaTypes"]
+- ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- ["So30UIPasteConfigurationSupportingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIPasteConfigurationSupportingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "progress"]
+- !private ["So30UIPasteConfigurationSupportingP", "progressView"]
+- !private ["So30UIPasteConfigurationSupportingP", "setProgress"]
+- !private ["So30UIPasteConfigurationSupportingP", "sourceType"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So14UIProgressViewC", "isHidden"]
+- !private ["So14UIProgressViewC", "progress"]
+- !private ["So14UIProgressViewC", "setProgress"]
+- !private ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "Float"]
+- ["So11UIResponderC", "InfoKey"]
+- !private ["So11UIResponderC", "SourceType"]
+- !private ["So11UIResponderC", "Storage"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImagePickerController"]
+- ["So11UIResponderC", "UIProgressView"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "imagePickerController"]
+- ["So11UIResponderC", "imagePickerControllerDidCancel"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "kUTTypeImage"]
+- !private ["So11UIResponderC", "mediaTypes"]
+- ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So11UIResponderC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So11UIResponderC", "postBtnPressed"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "progress"]
+- ["So11UIResponderC", "progressView"]
+- !private ["So11UIResponderC", "setProgress"]
+- !private ["So11UIResponderC", "sourceType"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Double"]
+- !private ["So30UIResponderStandardEditActionsP", "Float"]
+- ["So30UIResponderStandardEditActionsP", "InfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "SourceType"]
+- !private ["So30UIResponderStandardEditActionsP", "Storage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImagePickerController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- ["So30UIResponderStandardEditActionsP", "imagePickerController"]
+- ["So30UIResponderStandardEditActionsP", "imagePickerControllerDidCancel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "kUTTypeImage"]
+- !private ["So30UIResponderStandardEditActionsP", "mediaTypes"]
+- ["So30UIResponderStandardEditActionsP", "navigationController"]
+- ["So30UIResponderStandardEditActionsP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIResponderStandardEditActionsP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "progress"]
+- !private ["So30UIResponderStandardEditActionsP", "progressView"]
+- !private ["So30UIResponderStandardEditActionsP", "setProgress"]
+- !private ["So30UIResponderStandardEditActionsP", "sourceType"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "Double"]
+- !private ["So16UIStateRestoringP", "Float"]
+- ["So16UIStateRestoringP", "InfoKey"]
+- !private ["So16UIStateRestoringP", "SourceType"]
+- !private ["So16UIStateRestoringP", "Storage"]
+- !private ["So16UIStateRestoringP", "UIImagePickerController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- ["So16UIStateRestoringP", "imagePickerController"]
+- ["So16UIStateRestoringP", "imagePickerControllerDidCancel"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "kUTTypeImage"]
+- !private ["So16UIStateRestoringP", "mediaTypes"]
+- ["So16UIStateRestoringP", "navigationController"]
+- ["So16UIStateRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIStateRestoringP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "progressView"]
+- !private ["So16UIStateRestoringP", "sourceType"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Double"]
+- !private ["So18UITraitEnvironmentP", "Float"]
+- ["So18UITraitEnvironmentP", "InfoKey"]
+- !private ["So18UITraitEnvironmentP", "SourceType"]
+- !private ["So18UITraitEnvironmentP", "Storage"]
+- !private ["So18UITraitEnvironmentP", "UIImagePickerController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- ["So18UITraitEnvironmentP", "imagePickerController"]
+- ["So18UITraitEnvironmentP", "imagePickerControllerDidCancel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "kUTTypeImage"]
+- !private ["So18UITraitEnvironmentP", "mediaTypes"]
+- ["So18UITraitEnvironmentP", "navigationController"]
+- ["So18UITraitEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UITraitEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "progress"]
+- !private ["So18UITraitEnvironmentP", "progressView"]
+- !private ["So18UITraitEnvironmentP", "setProgress"]
+- !private ["So18UITraitEnvironmentP", "sourceType"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Double"]
+- !private ["So23UIUserActivityRestoringP", "Float"]
+- ["So23UIUserActivityRestoringP", "InfoKey"]
+- !private ["So23UIUserActivityRestoringP", "SourceType"]
+- !private ["So23UIUserActivityRestoringP", "Storage"]
+- !private ["So23UIUserActivityRestoringP", "UIImagePickerController"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "didReceiveMemoryWarning"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- ["So23UIUserActivityRestoringP", "imagePickerController"]
+- ["So23UIUserActivityRestoringP", "imagePickerControllerDidCancel"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "kUTTypeImage"]
+- !private ["So23UIUserActivityRestoringP", "mediaTypes"]
+- ["So23UIUserActivityRestoringP", "navigationController"]
+- ["So23UIUserActivityRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So23UIUserActivityRestoringP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "progress"]
+- !private ["So23UIUserActivityRestoringP", "progressView"]
+- !private ["So23UIUserActivityRestoringP", "setProgress"]
+- !private ["So23UIUserActivityRestoringP", "sourceType"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "progress"]
+- !private ["So6UIViewC", "setProgress"]
+- !private ["So16UIViewControllerC", "Double"]
+- !private ["So16UIViewControllerC", "Float"]
+- ["So16UIViewControllerC", "InfoKey"]
+- !private ["So16UIViewControllerC", "SourceType"]
+- !private ["So16UIViewControllerC", "Storage"]
+- !private ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImagePickerController"]
+- ["So16UIViewControllerC", "UIProgressView"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "imagePickerController"]
+- ["So16UIViewControllerC", "imagePickerControllerDidCancel"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "kUTTypeImage"]
+- !private ["So16UIViewControllerC", "mediaTypes"]
+- ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So16UIViewControllerC", "postBtnPressed"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "progressView"]
+- !private ["So16UIViewControllerC", "sourceType"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "progress"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setProgress"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "originalImage"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "InfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SourceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Storage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completedUnitCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerControllerDidCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kUTTypeImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mediaTypes"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progressView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "putData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalUnitCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isHidden"]
+- !private ["s21_ObjectiveCBridgeableP", "originalImage"]
+- !private ["s21_ObjectiveCBridgeableP", "progress"]
+- !private ["s21_ObjectiveCBridgeableP", "setProgress"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "originalImage"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "SK"
+- !private "SB"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "13TrueGrowthSF218FeedViewControllerC"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "So30UIImagePickerControllerInfoKeya"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- !private "So10NSProgressC"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "So33UIImagePickerControllerSourceTypeV"
+- !private "So10FIRStorageC"
+- !private "So24FIRStorageObservableTaskC"
+- !private "So19FIRStorageReferenceC"
+- !private "So14FIRStorageTaskC"
+- !private "So24FIRStorageTaskManagementP"
+- !private "So22FIRStorageTaskSnapshotC"
+- !private "So20FIRStorageTaskStatusV"
+- !private "So20FIRStorageUploadTaskC"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- "So23UIImagePickerControllerC"
+- "So31UIImagePickerControllerDelegateP"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So22UINavigationControllerC"
+- "So30UINavigationControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- !private "So14UIProgressViewC"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f06b1822bac22d15376b327e3263282e"

@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.rootViewController?.present(loginVC, animated: true, completion: nil)
         }
 
-        SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        //SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
         return true
     }
     

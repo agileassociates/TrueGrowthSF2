@@ -18,9 +18,12 @@
 		F45CE73D21C9DA9E0010F2D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CE73C21C9DA9E0010F2D6 /* LoginViewController.swift */; };
 		F467B81C21CADA9E005339A5 /* RoundUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467B81B21CADA9E005339A5 /* RoundUIView.swift */; };
 		F467B81E21CADF96005339A5 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467B81D21CADF96005339A5 /* RoundedCornerView.swift */; };
+		F485EAD121CF38C8006403E2 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485EAD021CF38C7006403E2 /* CircularProgressBar.swift */; };
 		F489B62B21CB06B200134A0C /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489B62A21CB06B200134A0C /* CurrencyTextField.swift */; };
 		F489B62D21CB120C00134A0C /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489B62C21CB120C00134A0C /* EmailLoginViewController.swift */; };
 		F489B62F21CB13A500134A0C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489B62E21CB13A500134A0C /* AuthService.swift */; };
+		F489B63121CDB95600134A0C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489B63021CDB95600134A0C /* ProfileViewController.swift */; };
+		F489B63321CDBC8B00134A0C /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489B63221CDBC8B00134A0C /* CreatePostViewController.swift */; };
 		F4A3E58221C9F11F006BB7EE /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3E58121C9F11F006BB7EE /* FacebookButton.swift */; };
 		F4F6035D21CAA8C8001B71B7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F6035C21CAA8C8001B71B7 /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -41,9 +44,12 @@
 		F45CE73C21C9DA9E0010F2D6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F467B81B21CADA9E005339A5 /* RoundUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundUIView.swift; sourceTree = "<group>"; };
 		F467B81D21CADF96005339A5 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		F485EAD021CF38C7006403E2 /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		F489B62A21CB06B200134A0C /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 		F489B62C21CB120C00134A0C /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
 		F489B62E21CB13A500134A0C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F489B63021CDB95600134A0C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F489B63221CDBC8B00134A0C /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		F4A3E58121C9F11F006BB7EE /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		F4F6035C21CAA8C8001B71B7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +133,8 @@
 				F41C2CF921C9C932008CD3D6 /* GroupsViewController.swift */,
 				F45CE73C21C9DA9E0010F2D6 /* LoginViewController.swift */,
 				F489B62C21CB120C00134A0C /* EmailLoginViewController.swift */,
+				F489B63021CDB95600134A0C /* ProfileViewController.swift */,
+				F489B63221CDBC8B00134A0C /* CreatePostViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				F489B62A21CB06B200134A0C /* CurrencyTextField.swift */,
+				F485EAD021CF38C7006403E2 /* CircularProgressBar.swift */,
 				F4A3E58121C9F11F006BB7EE /* FacebookButton.swift */,
 				F467B81B21CADA9E005339A5 /* RoundUIView.swift */,
 				F467B81D21CADF96005339A5 /* RoundedCornerView.swift */,
@@ -300,14 +309,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F467B81C21CADA9E005339A5 /* RoundUIView.swift in Sources */,
+				F489B63321CDBC8B00134A0C /* CreatePostViewController.swift in Sources */,
 				F45CE73D21C9DA9E0010F2D6 /* LoginViewController.swift in Sources */,
 				F4A3E58221C9F11F006BB7EE /* FacebookButton.swift in Sources */,
 				F41C2D0A21C9CE94008CD3D6 /* FeedViewController.swift in Sources */,
 				F4F6035D21CAA8C8001B71B7 /* DataService.swift in Sources */,
 				F489B62F21CB13A500134A0C /* AuthService.swift in Sources */,
+				F489B63121CDB95600134A0C /* ProfileViewController.swift in Sources */,
 				F489B62D21CB120C00134A0C /* EmailLoginViewController.swift in Sources */,
 				F41C2CFA21C9C932008CD3D6 /* GroupsViewController.swift in Sources */,
 				F489B62B21CB06B200134A0C /* CurrencyTextField.swift in Sources */,
+				F485EAD121CF38C8006403E2 /* CircularProgressBar.swift in Sources */,
 				F41C2CF821C9C932008CD3D6 /* AppDelegate.swift in Sources */,
 				F467B81E21CADF96005339A5 /* RoundedCornerView.swift in Sources */,
 			);
@@ -459,7 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTU3MN4DTE;
 				INFOPLIST_FILE = TrueGrowthSF2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,7 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTU3MN4DTE;
 				INFOPLIST_FILE = TrueGrowthSF2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
