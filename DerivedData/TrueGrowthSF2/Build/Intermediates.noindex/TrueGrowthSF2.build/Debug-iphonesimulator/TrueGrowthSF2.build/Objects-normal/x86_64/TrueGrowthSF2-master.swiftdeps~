@@ -1,18 +1,20 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "c06d792b2ded86a3b067f0eea9d2d64b"
-build_time: [1546627821, 338523000]
+build_time: [1548190662, 830032000]
 inputs:
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/View/RoundUIView.swift": [1545251101, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/CreatePostViewController.swift": [1545438474, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/LoginViewController.swift": [1545271974, 0]
+  "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Model/Post.swift": [1546988352, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/View/FacebookButton.swift": [1545189790, 0]
-  "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/FeedViewController.swift": [1546627820, 0]
-  "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Services/DataService.swift": [1545239949, 0]
+  "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/FeedViewController.swift": !dirty [1548190597, 0]
+  "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Services/DataService.swift": [1546642330, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Services/AuthService.swift": [1545267416, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/ProfileViewController.swift": [1545438345, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/EmailLoginViewController.swift": [1545462780, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/GroupsViewController.swift": [1545278308, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/View/CurrencyTextField.swift": [1545261442, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/View/CircularProgressBar.swift": [1545553829, 0]
+  "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/CameraViewController.swift": [1546989798, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/AppDelegate.swift": [1545461352, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/View/RoundedCornerView.swift": [1545251109, 0]

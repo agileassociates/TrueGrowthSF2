@@ -199,8 +199,33 @@ SWIFT_CLASS("_TtC13TrueGrowthSF211AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class CALayer;
+@class UITextView;
+@class UIImageView;
+@class UIButton;
+@class UIProgressView;
+@class UILabel;
+@class UIImagePickerController;
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC13TrueGrowthSF220CameraViewController")
+@interface CameraViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified captionTextView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImage;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified shareButton;
+@property (nonatomic, weak) IBOutlet UIProgressView * _Null_unspecified progressView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified selectPhotoLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified exitButton;
+- (void)viewDidLoad;
+- (void)handleSelectPhoto;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
+- (IBAction)exitBtnPressed:(id _Nonnull)sender;
+- (IBAction)shareBtnPressed:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CALayer;
 
 SWIFT_CLASS("_TtC13TrueGrowthSF219CircularProgressBar")
 @interface CircularProgressBar : UIView
@@ -210,7 +235,6 @@ SWIFT_CLASS("_TtC13TrueGrowthSF219CircularProgressBar")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
 
 SWIFT_CLASS("_TtC13TrueGrowthSF224CreatePostViewController")
 @interface CreatePostViewController : UIViewController
@@ -248,23 +272,35 @@ SWIFT_CLASS("_TtC13TrueGrowthSF214FacebookButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIProgressView;
-@class UIImagePickerController;
+
+SWIFT_CLASS("_TtC13TrueGrowthSF212FeedViewCell")
+@interface FeedViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified emailLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImageView;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
 
 SWIFT_CLASS("_TtC13TrueGrowthSF218FeedViewController")
 @interface FeedViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (nonatomic, weak) IBOutlet UIProgressView * _Null_unspecified progressView;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified postButton;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (IBAction)postBtnPressed:(id _Nonnull)sender;
-- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
+
+@interface FeedViewController (SWIFT_EXTENSION(TrueGrowthSF2)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 SWIFT_CLASS("_TtC13TrueGrowthSF220GroupsViewController")
 @interface GroupsViewController : UIViewController <UITableViewDataSource>
@@ -276,7 +312,6 @@ SWIFT_CLASS("_TtC13TrueGrowthSF220GroupsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
 
 SWIFT_CLASS("_TtC13TrueGrowthSF219LoginViewController")
 @interface LoginViewController : UIViewController
@@ -289,7 +324,6 @@ SWIFT_CLASS("_TtC13TrueGrowthSF219LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
 
 SWIFT_CLASS("_TtC13TrueGrowthSF221ProfileViewController")
 @interface ProfileViewController : UIViewController

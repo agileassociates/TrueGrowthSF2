@@ -25,15 +25,15 @@
 	<string>MobileCoreServices</string>
 	<string>WatchKit</string>
 	<string>FirebaseInstanceID</string>
-	<string>CoreText</string>
+	<string>FirebaseMLVisionFaceModel</string>
 	<string>AdSupport</string>
 	<string>FirebaseAuthInterop</string>
 	<string>FirebaseAuth</string>
-	<string>FirebaseMLVisionFaceModel</string>
-	<string>FirebaseMLVisionLabelModel</string>
 	<string>FBSDKLoginKit</string>
-	<string>FBSDKCoreKit</string>
+	<string>FirebaseMLVisionLabelModel</string>
 	<string>FirebaseInvites</string>
+	<string>FBSDKCoreKit</string>
+	<string>CoreText</string>
 	<string>FirebasePerformance</string>
 	<string>Crashlytics</string>
 	<string>ObjectiveC</string>
@@ -54,13 +54,13 @@
 	<string>Social</string>
 	<string>CoreGraphics</string>
 	<string>objc</string>
-	<string>FacebookCore</string>
 	<string>FirebaseDynamicLinks</string>
+	<string>FacebookCore</string>
 	<string>UIKit</string>
 	<string>Fabric</string>
-	<string>CoreTelephony</string>
 	<string>FirebaseMLVisionBarcodeModel</string>
 	<string>Foundation</string>
+	<string>CoreTelephony</string>
 	<string>sys</string>
 	<string>FirebaseFirestore</string>
 </array>

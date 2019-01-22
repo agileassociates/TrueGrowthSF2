@@ -62,6 +62,7 @@ depends-member:
 - ["13TrueGrowthSF211DataServiceC", "createDBUser"]
 - ["13TrueGrowthSF211DataServiceC", "init"]
 - ["13TrueGrowthSF211DataServiceC", "instance"]
+- ["13TrueGrowthSF211DataServiceC", "uploadPhoto"]
 - ["So11FIRDatabaseC", "database"]
 - ["So11FIRDatabaseC", "reference"]
 - ["So16FIRDatabaseQueryC", "child"]
@@ -336,4 +337,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "cc7a776a150540bcec9f981fa54f702c"
+interface-hash: "dcc5d3380e1798ba0c32f1f9fc9b350a"
