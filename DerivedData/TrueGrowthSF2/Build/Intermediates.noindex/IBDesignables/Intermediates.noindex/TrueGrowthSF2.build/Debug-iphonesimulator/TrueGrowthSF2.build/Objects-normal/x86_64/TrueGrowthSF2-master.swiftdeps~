@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "d1864b84d6d0875ffefe150cf72b9173"
-build_time: [1548190837, 833187000]
+build_time: [1548190840, 388502000]
 inputs:
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/View/RoundUIView.swift": [1545251101, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/TrueGrowthSF2/Controller/CreatePostViewController.swift": [1545438474, 0]

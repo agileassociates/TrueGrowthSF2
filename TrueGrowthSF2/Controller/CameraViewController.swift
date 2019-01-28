@@ -90,6 +90,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                     //ref.child("posts").child((currentUser?.uid)!).setValue(["photoUrl": downloadURL, "caption": caption])
                     let key = ref.child("posts").childByAutoId().key
                     let post = ["uid": currentUser?.uid,
+                                "email": currentUser?.email,
                                 "photoUrl": downloadURL,
                                 "caption": caption]
                     let childUpdates = ["/posts/\(key)": post]

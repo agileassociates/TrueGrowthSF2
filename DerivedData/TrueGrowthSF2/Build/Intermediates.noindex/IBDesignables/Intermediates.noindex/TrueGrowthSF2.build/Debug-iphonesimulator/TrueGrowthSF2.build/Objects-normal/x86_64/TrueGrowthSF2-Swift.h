@@ -275,8 +275,8 @@ SWIFT_CLASS("_TtC13TrueGrowthSF214FacebookButton")
 
 SWIFT_CLASS("_TtC13TrueGrowthSF212FeedViewCell")
 @interface FeedViewCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profilePhotoImageView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified emailCellLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified emailLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImageView;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

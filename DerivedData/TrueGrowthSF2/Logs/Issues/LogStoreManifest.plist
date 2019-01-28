@@ -259,29 +259,6 @@
 			<key>uniqueIdentifier</key>
 			<string>AE6E47AF-B239-46B9-A176-E4B729064AFD</string>
 		</dict>
-		<key>CF63E339-773B-4E62-B30C-59508A331991</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>CF63E339-773B-4E62-B30C-59508A331991.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>signature</key>
-			<string>TrueGrowthSF2-erlehnjhgrejxzbjxlzzjwtjzsye</string>
-			<key>timeStartedRecording</key>
-			<real>569883665.31944001</real>
-			<key>timeStoppedRecording</key>
-			<real>569883677.44269395</real>
-			<key>title</key>
-			<string>Build target TrueGrowthSF2</string>
-			<key>uniqueIdentifier</key>
-			<string>CF63E339-773B-4E62-B30C-59508A331991</string>
-		</dict>
 		<key>D105B57D-B08B-4388-BB8F-8B06E2120CAB</key>
 		<dict>
 			<key>className</key>
@@ -396,6 +373,29 @@
 			<string>Build target FacebookLogin</string>
 			<key>uniqueIdentifier</key>
 			<string>FB54A4DB-C426-4571-93C5-8090EF479615</string>
+		</dict>
+		<key>FF7792E6-A0FC-41D4-8A42-0A28C4787EC2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>FF7792E6-A0FC-41D4-8A42-0A28C4787EC2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>TrueGrowthSF2-erlehnjhgrejxzbjxlzzjwtjzsye</string>
+			<key>timeStartedRecording</key>
+			<real>570351240.982324</real>
+			<key>timeStoppedRecording</key>
+			<real>570351247.55155599</real>
+			<key>title</key>
+			<string>Build target TrueGrowthSF2</string>
+			<key>uniqueIdentifier</key>
+			<string>FF7792E6-A0FC-41D4-8A42-0A28C4787EC2</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

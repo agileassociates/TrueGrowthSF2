@@ -166,15 +166,15 @@
                                     <constraint firstItem="qZA-7K-Q3i" firstAttribute="top" secondItem="3LE-56-QZC" secondAttribute="top" constant="48" id="mt2-Z7-2nQ"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EFf-BM-HiW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="240" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EFf-BM-HiW">
                                 <rect key="frame" x="0.0" y="100" width="414" height="713"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="200" id="2eO-wO-itS" userLabel="FeedViewCell" customClass="FeedViewCell" customModule="TrueGrowthSF2" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="240" id="2eO-wO-itS" userLabel="FeedViewCell" customClass="FeedViewCell" customModule="TrueGrowthSF2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="240"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2eO-wO-itS" id="deo-bc-OJF">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="199.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="239.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_profile_extra_small" translatesAutoresizingMaskIntoConstraints="NO" id="eab-R3-mmZ">
@@ -190,21 +190,23 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NDb-GZ-4uw">
-                                                    <rect key="frame" x="69" y="50" width="276" height="128"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NDb-GZ-4uw">
+                                                    <rect key="frame" x="35" y="55" width="344" height="159"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="NDb-GZ-4uw" firstAttribute="top" secondItem="deo-bc-OJF" secondAttribute="topMargin" constant="39" id="2AX-Ob-5Nv"/>
                                                 <constraint firstItem="eab-R3-mmZ" firstAttribute="top" secondItem="deo-bc-OJF" secondAttribute="top" constant="10" id="4Re-de-Gin"/>
+                                                <constraint firstItem="NDb-GZ-4uw" firstAttribute="leading" secondItem="deo-bc-OJF" secondAttribute="leadingMargin" constant="15" id="4Wz-Sl-iGw"/>
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="top" secondItem="deo-bc-OJF" secondAttribute="topMargin" constant="-40" id="6h3-gI-0EU"/>
                                                 <constraint firstItem="eab-R3-mmZ" firstAttribute="leading" secondItem="deo-bc-OJF" secondAttribute="leading" constant="10" id="EQx-lp-S6h"/>
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="leading" secondItem="eab-R3-mmZ" secondAttribute="trailing" constant="22" id="JIR-43-bAm"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="NDb-GZ-4uw" secondAttribute="trailing" constant="49" id="QrW-dg-kUk"/>
-                                                <constraint firstItem="NDb-GZ-4uw" firstAttribute="leading" secondItem="deo-bc-OJF" secondAttribute="leadingMargin" constant="49" id="VTc-gM-2gp"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="NDb-GZ-4uw" secondAttribute="bottom" constant="15" id="KnF-EI-H1p"/>
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="trailing" secondItem="deo-bc-OJF" secondAttribute="trailingMargin" id="ah0-dL-wSg"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="NDb-GZ-4uw" secondAttribute="bottom" constant="11" id="asO-bm-VoR"/>
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="centerY" secondItem="eab-R3-mmZ" secondAttribute="centerY" id="be2-Wo-JXW"/>
+                                                <constraint firstItem="NDb-GZ-4uw" firstAttribute="top" secondItem="eab-R3-mmZ" secondAttribute="bottom" constant="15" id="j9t-3M-bn0"/>
+                                                <constraint firstItem="NDb-GZ-4uw" firstAttribute="top" secondItem="eab-R3-mmZ" secondAttribute="bottom" constant="15" id="mhp-Ku-kJJ"/>
+                                                <constraint firstItem="NDb-GZ-4uw" firstAttribute="leading" secondItem="deo-bc-OJF" secondAttribute="leadingMargin" constant="15" id="nK5-g2-mKF"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="NDb-GZ-4uw" secondAttribute="trailing" constant="15" id="tG1-qN-UsO"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

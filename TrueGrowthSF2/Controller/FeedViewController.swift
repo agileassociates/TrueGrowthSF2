@@ -42,7 +42,8 @@ class FeedViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                 //print(dict)
                 let captionText = dict["caption"] as! String
                 let photoUrlText = dict["photoUrl"] as! String
-                let post = Post(captionString: captionText, photoUrlString: photoUrlText)
+                let emailText = dict["email"] as! String
+                let post = Post(captionString: captionText, photoUrlString: photoUrlText, emailString: emailText)
                 self.posts.append(post)
                 print(self.posts)
                 self.tableView.reloadData()
@@ -62,8 +63,26 @@ extension FeedViewController: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell", for: indexPath) as! FeedViewCell
-        cell.emailLabel?.text = posts[indexPath.row].caption
-        //cell.emailCellLabel?.text = 
+        cell.emailLabel?.text = posts[indexPath.row].email
+        //cell.emailCellLabel?.text =
+        //cell.photoImageView?.image = UIImage(named: "bobby")
+        
+         let photoImage = posts[indexPath.row].photoUrl
+            let url = NSURL(string: photoImage)
+        URLSession.shared.dataTask(with: url! as URL, completionHandler: { (data, response, error) in
+                
+                if error != nil {
+                    print(error)
+                    return
+                }
+            DispatchQueue.main.async {
+                cell.photoImageView?.image = UIImage(data: data!)
+
+            }
+            
+            }).resume()
+        
+        
         return cell
     }
     

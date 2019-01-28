@@ -13,6 +13,7 @@ depends-top-level:
 depends-member:
 - ["13TrueGrowthSF24PostC", "String"]
 - ["13TrueGrowthSF24PostC", "caption"]
+- ["13TrueGrowthSF24PostC", "email"]
 - ["13TrueGrowthSF24PostC", "init"]
 - ["13TrueGrowthSF24PostC", "photoUrl"]
 depends-nominal:
@@ -182,4 +183,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "56c9e8c173a28dedfbda74f102d6c247"
+interface-hash: "c156db7d49666dc3d78e4f0575f4eecd"

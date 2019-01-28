@@ -29,11 +29,11 @@
 	<string>AdSupport</string>
 	<string>FirebaseAuthInterop</string>
 	<string>FirebaseAuth</string>
-	<string>FBSDKLoginKit</string>
+	<string>CoreText</string>
 	<string>FirebaseMLVisionLabelModel</string>
+	<string>FBSDKLoginKit</string>
 	<string>FirebaseInvites</string>
 	<string>FBSDKCoreKit</string>
-	<string>CoreText</string>
 	<string>FirebasePerformance</string>
 	<string>Crashlytics</string>
 	<string>ObjectiveC</string>
@@ -46,8 +46,8 @@
 	<string>FirebaseMLVision</string>
 	<string>FirebaseCrash</string>
 	<string>GTMSessionFetcher</string>
-	<string>AudioToolbox</string>
 	<string>QuartzCore</string>
+	<string>AudioToolbox</string>
 	<string>SystemConfiguration</string>
 	<string>FirebaseAnalytics</string>
 	<string>Security</string>
