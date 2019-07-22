@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "e527be0b95fe1b3bfd16e49f88bff2c4"
-build_time: [1546637447, 321725000]
+build_time: [1563664834, 487247000]
 inputs:
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FacebookShare/Sources/Share/Dialogs/AppInvite/AppInvite.DeliveryMethod.swift": [1545186521, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FacebookShare/Sources/Share/Dialogs/AppInvite/AppInvite.Dialog.swift": [1545186521, 0]

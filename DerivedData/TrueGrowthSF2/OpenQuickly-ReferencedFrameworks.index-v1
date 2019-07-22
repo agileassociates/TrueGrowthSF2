@@ -6,10 +6,10 @@
 	<string>FacebookLogin</string>
 	<string>FirebaseCore</string>
 	<string>Bolts</string>
-	<string>libkern</string>
 	<string>WebKit</string>
 	<string>Photos</string>
 	<string>FirebaseStorage</string>
+	<string>libkern</string>
 	<string>FirebaseInAppMessaging</string>
 	<string>FirebaseDatabase</string>
 	<string>StoreKit</string>
@@ -26,14 +26,14 @@
 	<string>WatchKit</string>
 	<string>FirebaseInstanceID</string>
 	<string>FirebaseMLVisionFaceModel</string>
-	<string>AdSupport</string>
+	<string>CoreText</string>
 	<string>FirebaseAuthInterop</string>
 	<string>FirebaseAuth</string>
-	<string>CoreText</string>
-	<string>FirebaseMLVisionLabelModel</string>
 	<string>FBSDKLoginKit</string>
+	<string>FirebaseMLVisionLabelModel</string>
 	<string>FirebaseInvites</string>
 	<string>FBSDKCoreKit</string>
+	<string>AdSupport</string>
 	<string>FirebasePerformance</string>
 	<string>Crashlytics</string>
 	<string>ObjectiveC</string>
@@ -42,12 +42,13 @@
 	<string>CommonCrypto</string>
 	<string>GoogleUtilities</string>
 	<string>FirebaseRemoteConfig</string>
+	<string>GoogleSignIn</string>
 	<string>unicode</string>
 	<string>FirebaseMLVision</string>
 	<string>FirebaseCrash</string>
 	<string>GTMSessionFetcher</string>
-	<string>QuartzCore</string>
 	<string>AudioToolbox</string>
+	<string>QuartzCore</string>
 	<string>SystemConfiguration</string>
 	<string>FirebaseAnalytics</string>
 	<string>Security</string>
@@ -58,9 +59,9 @@
 	<string>FacebookCore</string>
 	<string>UIKit</string>
 	<string>Fabric</string>
+	<string>CoreTelephony</string>
 	<string>FirebaseMLVisionBarcodeModel</string>
 	<string>Foundation</string>
-	<string>CoreTelephony</string>
 	<string>sys</string>
 	<string>FirebaseFirestore</string>
 </array>

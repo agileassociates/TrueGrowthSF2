@@ -27,8 +27,18 @@ class EmailLoginViewController: UIViewController, UITextFieldDelegate {
         if emailTxtField.text != nil && passwordTxtField.text != nil {
             AuthService.instance.loginUser(withEmail: emailTxtField.text!, andPassword: passwordTxtField.text!, loginComplete: { (success, loginError) in
                 if success {
-                    self.dismiss(animated: true, completion: nil)
+                    let TabBC =  self.storyboard?.instantiateViewController(withIdentifier: "TabBarController")
+                    self.present(TabBC!, animated: true, completion: nil)
+                    
                 } else {
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
+                    print("Log in Error Log in Error Log in Error!!!!!!!!!!!!!")
                     print(String(describing: loginError?.localizedDescription))
                 }
                 

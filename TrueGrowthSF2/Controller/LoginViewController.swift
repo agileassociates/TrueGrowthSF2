@@ -10,20 +10,86 @@ import UIKit
 import Firebase
 import FacebookCore
 import FacebookLogin
+import FBSDKLoginKit
+import GoogleSignIn
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, GIDSignInUIDelegate {
+    //, FBSDKLoginButtonDelegate
+    
     //@IBOutlet weak var fbLoginButton: LoginButton!
     
     @IBOutlet weak var trueGrowthLogo: UIImageView!
     
+    //@IBOutlet weak var facebookLoginBtn: FBSDKLoginButton!
+    
+    @IBOutlet weak var facebookLoginBtn: UIButton!
+    
+    //Variables
+    let loginManager = FBSDKLoginManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //facebookLoginBtn.delegate = self
+        GIDSignIn.sharedInstance().uiDelegate = self
         
         }
+    
     @IBAction func googleSignInBtnPressed(_ sender: Any) {
+        if GIDSignIn.sharedInstance()?.signIn() != nil {
+            print("Suceess")
+        } else {
+            print("Login Error!!!!!!!!!!!!!!!!!!!!!!!!")
+        }
+        
+
+        
     }
     
+    
     @IBAction func facebookSignInBtnPressed(_ sender: Any) {
+        loginManager.logIn(withReadPermissions: ["email", "public_profile"], from: self) { (result, error) in
+            if let error = error {
+                debugPrint("couldnt logout facebook", error)
+            } else if result!.isCancelled {
+                print("facebook login cancelled")
+            } else {
+                let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
+                Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
+                    if let error = error {
+                        debugPrint("couldnt logout facebook", error)
+                        return
+                    }
+                    FBSDKGraphRequest(graphPath: "/me", parameters: ["fields": "id, name, email"]).start {
+                        (connection, result, err) in
+                        if err != nil {
+                            print("Failed graph request", err!)
+                        }
+                        if let data = result as? NSDictionary
+                        {
+                            // if no FB email, set name to email
+                            if data.object(forKey: "email") == nil {
+                                
+                            let name =  data.object(forKey: "name")
+                            var formattedName = (name! as AnyObject).replacingOccurrences(of: " ", with: "")
+                            formattedName += "@truegrowthsf.org"
+                                Auth.auth().currentUser?.updateEmail(to: (formattedName as! AnyObject) as! String, completion: { (error) in
+                                    if err != nil {
+                                        print("Success")
+                                    } else {
+                                        print(error)
+                                    }
+                                })
+                            }
+                        }
+                    }
+                    
+                    let TabBC =  self.storyboard?.instantiateViewController(withIdentifier: "TabBarController")
+                    self.present(TabBC!, animated: true, completion: nil)
+                }
+            }
+            
+        }
+        
     }
     
         
@@ -32,7 +98,40 @@ class LoginViewController: UIViewController {
         present(emailLoginVC!, animated: true, completion: nil)
     }
     
+    func firebaseLogin(_ credential: AuthCredential) {
+        Auth.auth().signIn(with: credential) { (user, error) in
+            if let error = error {
+                debugPrint(error.localizedDescription)
+                return
+            }
+        }
+    }
+    
+    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
+        
+        if let error = error {
+            debugPrint("failed facebook login", error)
+            return
+        }
+        
+        let credential = FacebookAuthProvider.credential(withAccessToken: result.token.tokenString)
+        //firebaseLogin(credential)
+        Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
+            if let error = error {
+                // ...
+                debugPrint("failed facebook login", error)
 
+                return
+            }
+            // User is signed in
+            // ...
+        }
+    }
+    
+    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
+        
+    }
+    
         // Do any additional setup after loading the view.
 }
     

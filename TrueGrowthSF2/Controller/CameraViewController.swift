@@ -92,7 +92,9 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                     let post = ["uid": currentUser?.uid,
                                 "email": currentUser?.email,
                                 "photoUrl": downloadURL,
-                                "caption": caption]
+                                "caption": caption,
+                                "UUID": key
+                                ]
                     let childUpdates = ["/posts/\(key)": post]
                     //let childUpdates = ["/posts/\(key)": post,
                                         //"/user-posts/\(currentUser?.uid)/\(key)/": post]

@@ -118,7 +118,7 @@
         <!--Feed View Controller-->
         <scene sceneID="L7f-5A-amH">
             <objects>
-                <viewController id="dKE-hD-LyO" userLabel="Feed View Controller" customClass="FeedViewController" customModule="TrueGrowthSF2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedViewController" id="dKE-hD-LyO" userLabel="Feed View Controller" customClass="FeedViewController" customModule="TrueGrowthSF2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fkS-wr-vpS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,15 +166,15 @@
                                     <constraint firstItem="qZA-7K-Q3i" firstAttribute="top" secondItem="3LE-56-QZC" secondAttribute="top" constant="48" id="mt2-Z7-2nQ"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="240" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EFf-BM-HiW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="292" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EFf-BM-HiW">
                                 <rect key="frame" x="0.0" y="100" width="414" height="713"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="240" id="2eO-wO-itS" userLabel="FeedViewCell" customClass="FeedViewCell" customModule="TrueGrowthSF2" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="240"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="292" id="2eO-wO-itS" userLabel="FeedViewCell" customClass="FeedViewCell" customModule="TrueGrowthSF2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="292"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2eO-wO-itS" id="deo-bc-OJF">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="239.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="291.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_profile_extra_small" translatesAutoresizingMaskIntoConstraints="NO" id="eab-R3-mmZ">
@@ -192,7 +192,18 @@
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NDb-GZ-4uw">
                                                     <rect key="frame" x="35" y="55" width="344" height="159"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="159" id="0Tr-fN-ojD"/>
+                                                    </constraints>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1V-c1-NvG">
+                                                    <rect key="frame" x="35" y="231" width="67" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button" image="Like"/>
+                                                    <connections>
+                                                        <action selector="likedBtnPressed:" destination="dKE-hD-LyO" eventType="touchUpInside" id="KQX-ul-jxD"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="eab-R3-mmZ" firstAttribute="top" secondItem="deo-bc-OJF" secondAttribute="top" constant="10" id="4Re-de-Gin"/>
@@ -200,7 +211,6 @@
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="top" secondItem="deo-bc-OJF" secondAttribute="topMargin" constant="-40" id="6h3-gI-0EU"/>
                                                 <constraint firstItem="eab-R3-mmZ" firstAttribute="leading" secondItem="deo-bc-OJF" secondAttribute="leading" constant="10" id="EQx-lp-S6h"/>
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="leading" secondItem="eab-R3-mmZ" secondAttribute="trailing" constant="22" id="JIR-43-bAm"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="NDb-GZ-4uw" secondAttribute="bottom" constant="15" id="KnF-EI-H1p"/>
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="trailing" secondItem="deo-bc-OJF" secondAttribute="trailingMargin" id="ah0-dL-wSg"/>
                                                 <constraint firstItem="gJj-Or-fAT" firstAttribute="centerY" secondItem="eab-R3-mmZ" secondAttribute="centerY" id="be2-Wo-JXW"/>
                                                 <constraint firstItem="NDb-GZ-4uw" firstAttribute="top" secondItem="eab-R3-mmZ" secondAttribute="bottom" constant="15" id="j9t-3M-bn0"/>
@@ -211,6 +221,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="emailLabel" destination="gJj-Or-fAT" id="JXX-0D-H8k"/>
+                                            <outlet property="likeButton" destination="j1V-c1-NvG" id="6ez-2s-jQ2"/>
                                             <outlet property="photoImageView" destination="NDb-GZ-4uw" id="bSn-2v-zdo"/>
                                             <outlet property="profileImageView" destination="eab-R3-mmZ" id="fe1-Rr-OP1"/>
                                         </connections>
@@ -276,7 +287,7 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="logoutBtnPressed:" destination="IBG-Cy-DSh" eventType="touchUpInside" id="ONn-Fg-n2V"/>
+                                            <action selector="logoutBtnPressed:" destination="IBG-Cy-DSh" eventType="touchUpInside" id="WHw-sb-93r"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -356,6 +367,7 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="emailLabel" destination="Y85-yN-xyj" id="QsB-ob-Fm5"/>
+                        <outlet property="logoutButton" destination="eXI-b3-cEW" id="055-yH-F04"/>
                         <outlet property="profileImage" destination="vsP-KL-hfE" id="5EI-Jl-lZ4"/>
                         <outlet property="tableView" destination="6nO-6D-Dro" id="Zbq-Wf-bch"/>
                     </connections>
@@ -443,7 +455,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="facebookSignInBtnPressed:" destination="9Wo-rL-xgk" eventType="touchUpInside" id="GLF-9s-YYY"/>
+                                            <action selector="facebookSignInBtnPressed:" destination="9Wo-rL-xgk" eventType="touchUpInside" id="PwQ-n9-sQJ"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qZQ-ej-mfP">
@@ -519,13 +531,14 @@
                         <viewLayoutGuide key="safeArea" id="YKl-Ig-oEv"/>
                     </view>
                     <connections>
+                        <outlet property="facebookLoginBtn" destination="bId-hG-vyP" id="6tC-xh-Wla"/>
                         <outlet property="trueGrowthLogo" destination="zMV-XD-999" id="XPH-Ak-3QA"/>
-                        <outlet property="view" destination="svR-5B-On0" id="y2h-0a-sF4"/>
+                        <outlet property="view" destination="Zq6-vv-Bgm" id="fbH-4B-jkF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pkC-ma-ZPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2309" y="-320"/>
+            <point key="canvasLocation" x="-2684" y="-320"/>
         </scene>
         <!--Email Login View Controller-->
         <scene sceneID="NTD-sM-uGg">
@@ -612,12 +625,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z0K-Ie-y1p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1244.9275362318842" y="-324.10714285714283"/>
+            <point key="canvasLocation" x="-1306" y="-320"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uaV-CR-hy4">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="on4-dF-lhh" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" automaticallyAdjustsScrollViewInsets="NO" id="on4-dF-lhh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="SET-OC-inw">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="49"/>
@@ -638,6 +651,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Like" width="54" height="50"/>
         <image name="Navigation_Stop_2x" width="35" height="35"/>
         <image name="default_profile_extra_small" width="14" height="14"/>
         <image name="default_profile_icon" width="72" height="72"/>

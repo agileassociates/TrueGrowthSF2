@@ -19,15 +19,18 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "EmailLoginViewController"
 - !private "String"
+- "StringLiteralType"
 - "UITextField"
 - "UITextFieldDelegate"
 - "UIViewController"
 - !private "print"
 depends-member:
 - !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
 - !private ["13TrueGrowthSF211AuthServiceC", "instance"]
 - !private ["13TrueGrowthSF211AuthServiceC", "loginUser"]
 - !private ["13TrueGrowthSF211AuthServiceC", "registerUser"]
+- !private ["SK", "init"]
 - !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "delegate"]
@@ -41,8 +44,11 @@ depends-member:
 - !private ["s7CVarArgP", "emailTxtField"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
 - !private ["s7CVarArgP", "passwordTxtField"]
+- !private ["s7CVarArgP", "present"]
 - !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "storyboard"]
 - !private ["s7CVarArgP", "text"]
 - ["s7CVarArgP", "textField"]
 - ["s7CVarArgP", "textFieldDidBeginEditing"]
@@ -53,6 +59,8 @@ depends-member:
 - ["s7CVarArgP", "textFieldShouldReturn"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
 - !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "AuthService"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
@@ -62,8 +70,11 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "emailTxtField"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "passwordTxtField"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - ["s28CustomDebugStringConvertibleP", "textField"]
 - ["s28CustomDebugStringConvertibleP", "textFieldDidBeginEditing"]
@@ -75,8 +86,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "text"]
 - !private ["s23CustomStringConvertibleP", "AuthService"]
@@ -88,8 +101,11 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "emailTxtField"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
 - !private ["s23CustomStringConvertibleP", "passwordTxtField"]
+- !private ["s23CustomStringConvertibleP", "present"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - ["s23CustomStringConvertibleP", "textField"]
 - ["s23CustomStringConvertibleP", "textFieldDidBeginEditing"]
@@ -102,6 +118,7 @@ depends-member:
 - !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "delegate"]
 - !private ["Se", "init"]
+- !private ["Se", "init"]
 - !private ["Se", "text"]
 - !private ["13TrueGrowthSF224EmailLoginViewControllerC", "AuthService"]
 - !private ["13TrueGrowthSF224EmailLoginViewControllerC", "String"]
@@ -112,8 +129,10 @@ depends-member:
 - ["13TrueGrowthSF224EmailLoginViewControllerC", "emailTxtField"]
 - ["13TrueGrowthSF224EmailLoginViewControllerC", "init"]
 - ["13TrueGrowthSF224EmailLoginViewControllerC", "passwordTxtField"]
+- !private ["13TrueGrowthSF224EmailLoginViewControllerC", "present"]
 - !private ["13TrueGrowthSF224EmailLoginViewControllerC", "print"]
 - ["13TrueGrowthSF224EmailLoginViewControllerC", "signInBtnPressed"]
+- !private ["13TrueGrowthSF224EmailLoginViewControllerC", "storyboard"]
 - ["13TrueGrowthSF224EmailLoginViewControllerC", "textField"]
 - ["13TrueGrowthSF224EmailLoginViewControllerC", "textFieldDidBeginEditing"]
 - ["13TrueGrowthSF224EmailLoginViewControllerC", "textFieldDidEndEditing"]
@@ -125,6 +144,7 @@ depends-member:
 - !private ["SE", "_getBuiltinLogicValue"]
 - !private ["SE", "delegate"]
 - !private ["SE", "init"]
+- !private ["SE", "init"]
 - !private ["SE", "text"]
 - !private ["SQ", "AuthService"]
 - !private ["SQ", "String"]
@@ -135,8 +155,11 @@ depends-member:
 - !private ["SQ", "emailTxtField"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
 - !private ["SQ", "passwordTxtField"]
+- !private ["SQ", "present"]
 - !private ["SQ", "print"]
+- !private ["SQ", "storyboard"]
 - !private ["SQ", "text"]
 - ["SQ", "textField"]
 - ["SQ", "textFieldDidBeginEditing"]
@@ -149,9 +172,12 @@ depends-member:
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "delegate"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["SH", "AuthService"]
 - !private ["SH", "String"]
@@ -162,8 +188,11 @@ depends-member:
 - !private ["SH", "emailTxtField"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
 - !private ["SH", "passwordTxtField"]
+- !private ["SH", "present"]
 - !private ["SH", "print"]
+- !private ["SH", "storyboard"]
 - !private ["SH", "text"]
 - ["SH", "textField"]
 - ["SH", "textFieldDidBeginEditing"]
@@ -175,6 +204,8 @@ depends-member:
 - !private ["SH", "viewDidLoad"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "AuthService"]
 - !private ["So8NSCodingP", "String"]
@@ -185,7 +216,9 @@ depends-member:
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "passwordTxtField"]
+- !private ["So8NSCodingP", "present"]
 - !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "storyboard"]
 - !private ["So8NSCodingP", "text"]
 - ["So8NSCodingP", "textField"]
 - ["So8NSCodingP", "textFieldDidBeginEditing"]
@@ -203,7 +236,9 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "passwordTxtField"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
 - ["So26NSExtensionRequestHandlingP", "textField"]
 - ["So26NSExtensionRequestHandlingP", "textFieldDidBeginEditing"]
 - ["So26NSExtensionRequestHandlingP", "textFieldDidEndEditing"]
@@ -221,9 +256,12 @@ depends-member:
 - ["So8NSObjectC", "emailTxtField"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
 - ["So8NSObjectC", "passwordTxtField"]
+- !private ["So8NSObjectC", "present"]
 - !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "signInBtnPressed"]
+- !private ["So8NSObjectC", "storyboard"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "textField"]
 - ["So8NSObjectC", "textFieldDidBeginEditing"]
@@ -241,8 +279,11 @@ depends-member:
 - !private ["So8NSObjectP", "emailTxtField"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
 - !private ["So8NSObjectP", "passwordTxtField"]
+- !private ["So8NSObjectP", "present"]
 - !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "storyboard"]
 - !private ["So8NSObjectP", "text"]
 - ["So8NSObjectP", "textField"]
 - ["So8NSObjectP", "textFieldDidBeginEditing"]
@@ -255,10 +296,16 @@ depends-member:
 - !private ["Sq", "delegate"]
 - !private ["Sq", "text"]
 - !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
 - !private ["ST", "init"]
 - !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
 - !private ["Sy", "init"]
 - !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
@@ -273,7 +320,9 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "passwordTxtField"]
+- !private ["So21UIAppearanceContainerP", "present"]
 - !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - ["So21UIAppearanceContainerP", "textField"]
 - ["So21UIAppearanceContainerP", "textFieldDidBeginEditing"]
@@ -291,7 +340,9 @@ depends-member:
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "passwordTxtField"]
+- !private ["So18UIContentContainerP", "present"]
 - !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "storyboard"]
 - ["So18UIContentContainerP", "textField"]
 - ["So18UIContentContainerP", "textFieldDidBeginEditing"]
 - ["So18UIContentContainerP", "textFieldDidEndEditing"]
@@ -317,7 +368,9 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "passwordTxtField"]
+- !private ["So18UIFocusEnvironmentP", "present"]
 - !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - ["So18UIFocusEnvironmentP", "textField"]
 - ["So18UIFocusEnvironmentP", "textFieldDidBeginEditing"]
@@ -342,7 +395,9 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "passwordTxtField"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - ["So30UIPasteConfigurationSupportingP", "textField"]
 - ["So30UIPasteConfigurationSupportingP", "textFieldDidBeginEditing"]
@@ -362,8 +417,10 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "passwordTxtField"]
+- !private ["So11UIResponderC", "present"]
 - !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "signInBtnPressed"]
+- !private ["So11UIResponderC", "storyboard"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "textField"]
 - ["So11UIResponderC", "textFieldDidBeginEditing"]
@@ -382,7 +439,9 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "passwordTxtField"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - ["So30UIResponderStandardEditActionsP", "textField"]
 - ["So30UIResponderStandardEditActionsP", "textFieldDidBeginEditing"]
@@ -400,7 +459,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "passwordTxtField"]
+- !private ["So16UIStateRestoringP", "present"]
 - !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "storyboard"]
 - ["So16UIStateRestoringP", "textField"]
 - ["So16UIStateRestoringP", "textFieldDidBeginEditing"]
 - ["So16UIStateRestoringP", "textFieldDidEndEditing"]
@@ -409,6 +470,7 @@ depends-member:
 - ["So16UIStateRestoringP", "textFieldShouldEndEditing"]
 - ["So16UIStateRestoringP", "textFieldShouldReturn"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
 - !private ["So15UITextDraggableP", "delegate"]
 - !private ["So15UITextDraggableP", "text"]
 - !private ["So15UITextDroppableP", "delegate"]
@@ -421,7 +483,9 @@ depends-member:
 - !private ["So19UITextFieldDelegateP", "dismiss"]
 - !private ["So19UITextFieldDelegateP", "emailTxtField"]
 - !private ["So19UITextFieldDelegateP", "passwordTxtField"]
+- !private ["So19UITextFieldDelegateP", "present"]
 - !private ["So19UITextFieldDelegateP", "print"]
+- !private ["So19UITextFieldDelegateP", "storyboard"]
 - ["So19UITextFieldDelegateP", "textField"]
 - ["So19UITextFieldDelegateP", "textFieldDidBeginEditing"]
 - ["So19UITextFieldDelegateP", "textFieldDidEndEditing"]
@@ -444,7 +508,9 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "passwordTxtField"]
+- !private ["So18UITraitEnvironmentP", "present"]
 - !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - ["So18UITraitEnvironmentP", "textField"]
 - ["So18UITraitEnvironmentP", "textFieldDidBeginEditing"]
@@ -463,7 +529,9 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "passwordTxtField"]
+- !private ["So23UIUserActivityRestoringP", "present"]
 - !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
 - !private ["So23UIUserActivityRestoringP", "text"]
 - ["So23UIUserActivityRestoringP", "textField"]
 - ["So23UIUserActivityRestoringP", "textFieldDidBeginEditing"]
@@ -485,8 +553,10 @@ depends-member:
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "passwordTxtField"]
+- !private ["So16UIViewControllerC", "present"]
 - !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "signInBtnPressed"]
+- !private ["So16UIViewControllerC", "storyboard"]
 - ["So16UIViewControllerC", "textField"]
 - ["So16UIViewControllerC", "textFieldDidBeginEditing"]
 - ["So16UIViewControllerC", "textFieldDidEndEditing"]
@@ -499,9 +569,14 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AuthService"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
@@ -511,8 +586,11 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "emailTxtField"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordTxtField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidBeginEditing"]
@@ -525,7 +603,9 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "delegate"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "12FacebookCore26AppEventParameterValueTypeP"
@@ -580,6 +660,7 @@ depends-nominal:
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
 - !private "So15UITextDraggableP"
 - !private "So15UITextDroppableP"
 - !private "So11UITextFieldC"
@@ -632,6 +713,7 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
@@ -668,9 +750,12 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
@@ -678,6 +763,7 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
@@ -696,6 +782,7 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
@@ -749,6 +836,7 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"

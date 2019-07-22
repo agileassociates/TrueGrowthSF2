@@ -10,6 +10,7 @@
 		076FCC7DAD5A2FD18B4D7FB8 /* Pods_TrueGrowthSF2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3902EC3239C1531E1D3FA313 /* Pods_TrueGrowthSF2.framework */; };
 		F40DE0A021E179DC00EC685D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40DE09F21E179DC00EC685D /* CameraViewController.swift */; };
 		F41253FE21E55B2D00FC32E6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41253FD21E55B2D00FC32E6 /* Post.swift */; };
+		F418624322D595E700387124 /* ReflectedStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418624222D595E700387124 /* ReflectedStringConvertible.swift */; };
 		F41C2CF821C9C932008CD3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C2CF721C9C932008CD3D6 /* AppDelegate.swift */; };
 		F41C2CFA21C9C932008CD3D6 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C2CF921C9C932008CD3D6 /* GroupsViewController.swift */; };
 		F41C2CFD21C9C932008CD3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C2CFB21C9C932008CD3D6 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		F41C2D0221C9C934008CD3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C2D0021C9C934008CD3D6 /* LaunchScreen.storyboard */; };
 		F41C2D0A21C9CE94008CD3D6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C2D0921C9CE94008CD3D6 /* FeedViewController.swift */; };
 		F41C2D0C21C9D659008CD3D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F41C2D0B21C9D658008CD3D6 /* GoogleService-Info.plist */; };
+		F42C05B3228F840800FBBB05 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C05B2228F840800FBBB05 /* Like.swift */; };
 		F45CE73D21C9DA9E0010F2D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45CE73C21C9DA9E0010F2D6 /* LoginViewController.swift */; };
 		F467B81C21CADA9E005339A5 /* RoundUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467B81B21CADA9E005339A5 /* RoundUIView.swift */; };
 		F467B81E21CADF96005339A5 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467B81D21CADF96005339A5 /* RoundedCornerView.swift */; };
@@ -36,6 +38,7 @@
 		9113413C9EA08A668B5AD263 /* Pods-TrueGrowthSF2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueGrowthSF2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrueGrowthSF2/Pods-TrueGrowthSF2.debug.xcconfig"; sourceTree = "<group>"; };
 		F40DE09F21E179DC00EC685D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F41253FD21E55B2D00FC32E6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F418624222D595E700387124 /* ReflectedStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectedStringConvertible.swift; sourceTree = "<group>"; };
 		F41C2CF421C9C932008CD3D6 /* TrueGrowthSF2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueGrowthSF2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41C2CF721C9C932008CD3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F41C2CF921C9C932008CD3D6 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		F41C2D0321C9C934008CD3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F41C2D0921C9CE94008CD3D6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F41C2D0B21C9D658008CD3D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F42C05B2228F840800FBBB05 /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		F45CE73C21C9DA9E0010F2D6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F467B81B21CADA9E005339A5 /* RoundUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundUIView.swift; sourceTree = "<group>"; };
 		F467B81D21CADF96005339A5 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 		F474B94F21CAAF31003E082E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F418624222D595E700387124 /* ReflectedStringConvertible.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				F41253FD21E55B2D00FC32E6 /* Post.swift */,
+				F42C05B2228F840800FBBB05 /* Like.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +191,7 @@
 				F41C2CF121C9C932008CD3D6 /* Frameworks */,
 				F41C2CF221C9C932008CD3D6 /* Resources */,
 				9B5ECE3AA510CB7AC73B9B1C /* [CP] Embed Pods Frameworks */,
+				BB2C8689896BE248C1C6BC67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +289,7 @@
 				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -298,6 +306,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -305,6 +314,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueGrowthSF2/Pods-TrueGrowthSF2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2C8689896BE248C1C6BC67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrueGrowthSF2/Pods-TrueGrowthSF2-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueGrowthSF2/Pods-TrueGrowthSF2-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -318,6 +349,7 @@
 				F489B63321CDBC8B00134A0C /* CreatePostViewController.swift in Sources */,
 				F45CE73D21C9DA9E0010F2D6 /* LoginViewController.swift in Sources */,
 				F41253FE21E55B2D00FC32E6 /* Post.swift in Sources */,
+				F42C05B3228F840800FBBB05 /* Like.swift in Sources */,
 				F4A3E58221C9F11F006BB7EE /* FacebookButton.swift in Sources */,
 				F41C2D0A21C9CE94008CD3D6 /* FeedViewController.swift in Sources */,
 				F4F6035D21CAA8C8001B71B7 /* DataService.swift in Sources */,
@@ -329,6 +361,7 @@
 				F485EAD121CF38C8006403E2 /* CircularProgressBar.swift in Sources */,
 				F40DE0A021E179DC00EC685D /* CameraViewController.swift in Sources */,
 				F41C2CF821C9C932008CD3D6 /* AppDelegate.swift in Sources */,
+				F418624322D595E700387124 /* ReflectedStringConvertible.swift in Sources */,
 				F467B81E21CADF96005339A5 /* RoundedCornerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTU3MN4DTE;
 				INFOPLIST_FILE = TrueGrowthSF2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTU3MN4DTE;
 				INFOPLIST_FILE = TrueGrowthSF2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

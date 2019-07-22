@@ -11,6 +11,7 @@ class Post {
     var caption: String
     var photoUrl: String
     var email: String
+    var likesCount = 0
     
     init(captionString: String, photoUrlString: String, emailString: String) {
         caption = captionString
