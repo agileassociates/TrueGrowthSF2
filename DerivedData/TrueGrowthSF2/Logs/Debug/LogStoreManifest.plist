@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>08CE8D19-7A8F-4237-9343-FBC20F7BBAA0</key>
+		<key>8CA28B06-687B-4B93-A70F-8B86ADF553AE</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>08CE8D19-7A8F-4237-9343-FBC20F7BBAA0.xcactivitylog</string>
+			<string>8CA28B06-687B-4B93-A70F-8B86ADF553AE.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Debug TrueGrowthSF2</string>
 			<key>timeStartedRecording</key>
-			<real>585508931.994784</real>
+			<real>585536696.75250995</real>
 			<key>timeStoppedRecording</key>
-			<real>585509026.64363503</real>
+			<real>585536725.80638897</real>
 			<key>title</key>
 			<string>Debug TrueGrowthSF2</string>
 			<key>uniqueIdentifier</key>
-			<string>08CE8D19-7A8F-4237-9343-FBC20F7BBAA0</string>
+			<string>8CA28B06-687B-4B93-A70F-8B86ADF553AE</string>
 		</dict>
-		<key>1EF92EAD-1027-4F92-8C88-CF6B20D2B387</key>
+		<key>94447255-C1A0-4245-9623-FA4F2489FE59</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1EF92EAD-1027-4F92-8C88-CF6B20D2B387.xcactivitylog</string>
+			<string>94447255-C1A0-4245-9623-FA4F2489FE59.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,15 +56,15 @@
 			<key>signature</key>
 			<string>Debug TrueGrowthSF2</string>
 			<key>timeStartedRecording</key>
-			<real>585518464.49931896</real>
+			<real>587438421.76583099</real>
 			<key>timeStoppedRecording</key>
-			<real>585518803.979689</real>
+			<real>587438465.58290398</real>
 			<key>title</key>
 			<string>Debug TrueGrowthSF2</string>
 			<key>uniqueIdentifier</key>
-			<string>1EF92EAD-1027-4F92-8C88-CF6B20D2B387</string>
+			<string>94447255-C1A0-4245-9623-FA4F2489FE59</string>
 		</dict>
-		<key>42303C73-D80B-4E3F-AA0D-93E37713E1FF</key>
+		<key>C8209BB3-835C-4970-AB03-CEFBF9A2290A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -73,7 +73,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>42303C73-D80B-4E3F-AA0D-93E37713E1FF.xcactivitylog</string>
+			<string>C8209BB3-835C-4970-AB03-CEFBF9A2290A.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -85,100 +85,13 @@
 			<key>signature</key>
 			<string>Debug TrueGrowthSF2</string>
 			<key>timeStartedRecording</key>
-			<real>585509115.05509198</real>
+			<real>587436167.583583</real>
 			<key>timeStoppedRecording</key>
-			<real>585509396.617975</real>
+			<real>587436728.77807605</real>
 			<key>title</key>
 			<string>Debug TrueGrowthSF2</string>
 			<key>uniqueIdentifier</key>
-			<string>42303C73-D80B-4E3F-AA0D-93E37713E1FF</string>
-		</dict>
-		<key>464BEE53-20E1-49B1-85D5-F4EB324CFE78</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>464BEE53-20E1-49B1-85D5-F4EB324CFE78.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>TrueGrowthSF2 project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>TrueGrowthSF2</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug TrueGrowthSF2</string>
-			<key>timeStartedRecording</key>
-			<real>585509405.34600198</real>
-			<key>timeStoppedRecording</key>
-			<real>585509575.43057299</real>
-			<key>title</key>
-			<string>Debug TrueGrowthSF2</string>
-			<key>uniqueIdentifier</key>
-			<string>464BEE53-20E1-49B1-85D5-F4EB324CFE78</string>
-		</dict>
-		<key>4BC5543F-054D-400B-B23B-FEE444007CA6</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>4BC5543F-054D-400B-B23B-FEE444007CA6.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>TrueGrowthSF2 project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>TrueGrowthSF2</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug TrueGrowthSF2</string>
-			<key>timeStartedRecording</key>
-			<real>585517613.20605004</real>
-			<key>timeStoppedRecording</key>
-			<real>585518049.79646397</real>
-			<key>title</key>
-			<string>Debug TrueGrowthSF2</string>
-			<key>uniqueIdentifier</key>
-			<string>4BC5543F-054D-400B-B23B-FEE444007CA6</string>
-		</dict>
-		<key>C4D3213E-4EF4-4468-BB4B-DFD7E6081648</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>C4D3213E-4EF4-4468-BB4B-DFD7E6081648.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>TrueGrowthSF2 project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>TrueGrowthSF2</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug TrueGrowthSF2</string>
-			<key>timeStartedRecording</key>
-			<real>584832737.02593899</real>
-			<key>timeStoppedRecording</key>
-			<real>584832887.80477405</real>
-			<key>title</key>
-			<string>Debug TrueGrowthSF2</string>
-			<key>uniqueIdentifier</key>
-			<string>C4D3213E-4EF4-4468-BB4B-DFD7E6081648</string>
+			<string>C8209BB3-835C-4970-AB03-CEFBF9A2290A</string>
 		</dict>
 	</dict>
 </dict>

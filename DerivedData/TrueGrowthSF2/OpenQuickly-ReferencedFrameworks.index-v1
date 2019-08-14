@@ -29,11 +29,11 @@
 	<string>CoreText</string>
 	<string>FirebaseAuthInterop</string>
 	<string>FirebaseAuth</string>
-	<string>FBSDKLoginKit</string>
+	<string>AdSupport</string>
 	<string>FirebaseMLVisionLabelModel</string>
+	<string>FBSDKLoginKit</string>
 	<string>FirebaseInvites</string>
 	<string>FBSDKCoreKit</string>
-	<string>AdSupport</string>
 	<string>FirebasePerformance</string>
 	<string>Crashlytics</string>
 	<string>ObjectiveC</string>

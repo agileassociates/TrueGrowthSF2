@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "c322718f625965e2faed06aabf838003"
-build_time: [1562531305, 999143000]
+build_time: [1563664834, 485108000]
 inputs:
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [1545186512, 0]
   "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [1545186512, 0]

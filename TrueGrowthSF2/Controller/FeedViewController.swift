@@ -10,6 +10,10 @@ import UIKit
 import MobileCoreServices
 import Firebase
 
+protocol FeedViewCellDelegate {
+    func didTapLikeButton(title: String)
+}
+
 class FeedViewCell: UITableViewCell {
     @IBOutlet weak var profileImageView: UIImageView!
     
@@ -88,7 +92,6 @@ class FeedViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         super.didReceiveMemoryWarning()
     }
     
-    
 }
 
 extension FeedViewController: UITableViewDataSource {
@@ -117,6 +120,8 @@ extension FeedViewController: UITableViewDataSource {
         for like in self.likes {
             if like.photoUrl == self.posts[indexPath.row].photoUrl && like.uid == self.likes[count].uid {
                 print("\n\n\n\n\n\n\n ****THIS IS THE SAME**** ****THIS IS THE SAME****" )
+                sender.setImage(UIImage(named: "Like"), for: UIControl.State.normal)
+
                 let key = like.uuid
                 let reference = ref.child("likes").child(key)
                 reference.removeValue { error, _ in
@@ -138,6 +143,8 @@ extension FeedViewController: UITableViewDataSource {
             print(currentUser?.uid)
             print(self.posts[indexPath.row].photoUrl)
             // cell.likedImageView.image = UIImage(named: "yellow_like")
+            //cell.likeButton.image = UIImage(named: "yellow_like")
+            sender.setImage(UIImage(named: "did _like"), for: UIControl.State.normal)
             self.tableView.reloadData()
         })
     }

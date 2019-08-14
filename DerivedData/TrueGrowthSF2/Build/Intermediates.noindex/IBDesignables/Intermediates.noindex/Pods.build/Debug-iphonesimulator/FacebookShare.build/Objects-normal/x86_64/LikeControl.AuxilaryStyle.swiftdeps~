@@ -21,6 +21,8 @@ depends-top-level:
 - "FBSDKLikeControlAuxiliaryPosition"
 - "FBSDKLikeControlHorizontalAlignment"
 - "FBSDKLikeControlStyle"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "LikeControl"
 depends-member:
 - ["13FacebookShare11LikeControlC13AuxilaryStyleO", "=="]
