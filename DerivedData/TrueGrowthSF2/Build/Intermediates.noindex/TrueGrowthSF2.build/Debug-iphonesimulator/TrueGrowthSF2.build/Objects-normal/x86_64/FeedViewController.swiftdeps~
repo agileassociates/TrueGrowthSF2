@@ -16,17 +16,7 @@ provides-member:
 - ["So11UIImageViewC", "setImageColor"]
 - ["So7UIImageC", "localImage"]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "emailLabel"
 - "imageTapped"
-- "likeButton"
-- "likedBtnPressed"
-- "photoImageView"
-- "postButton"
-- "profileImageView"
-- "progressView"
-- "tableView"
-- "viewDidLoad"
 depends-top-level:
 - !private "!"
 - !private "!="
@@ -132,7 +122,6 @@ depends-member:
 - !private ["s7CVarArgP", "NSURL"]
 - ["s7CVarArgP", "Post"]
 - !private ["s7CVarArgP", "State"]
-- !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIControl"]
 - !private ["s7CVarArgP", "UIImage"]
 - !private ["s7CVarArgP", "URLSession"]
@@ -197,7 +186,6 @@ depends-member:
 - !private ["s7CVarArgP", "value"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "withRenderingMode"]
-- !private ["s7CVarArgP", "yellow"]
 - !private ["Sl", "append"]
 - !private ["Sl", "count"]
 - !private ["Sl", "description"]
@@ -220,7 +208,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "NSURL"]
 - ["s28CustomDebugStringConvertibleP", "Post"]
 - !private ["s28CustomDebugStringConvertibleP", "State"]
-- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIControl"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "URLSession"]
@@ -287,7 +274,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "value"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s28CustomDebugStringConvertibleP", "withRenderingMode"]
-- !private ["s28CustomDebugStringConvertibleP", "yellow"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
@@ -318,7 +304,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "NSURL"]
 - ["s23CustomStringConvertibleP", "Post"]
 - !private ["s23CustomStringConvertibleP", "State"]
-- !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIControl"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
 - !private ["s23CustomStringConvertibleP", "URLSession"]
@@ -387,7 +372,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "value"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["s23CustomStringConvertibleP", "withRenderingMode"]
-- !private ["s23CustomStringConvertibleP", "yellow"]
 - !private ["So16FIRDataEventTypeV", "childAdded"]
 - !private ["So15FIRDataSnapshotC", "value"]
 - !private ["So11FIRDatabaseC", "database"]
@@ -449,7 +433,6 @@ depends-member:
 - !private ["SQ", "NSURL"]
 - ["SQ", "Post"]
 - !private ["SQ", "State"]
-- !private ["SQ", "UIColor"]
 - !private ["SQ", "UIControl"]
 - !private ["SQ", "UIImage"]
 - !private ["SQ", "URLSession"]
@@ -520,7 +503,6 @@ depends-member:
 - !private ["SQ", "value"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["SQ", "withRenderingMode"]
-- !private ["SQ", "yellow"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
@@ -570,7 +552,6 @@ depends-member:
 - ["13TrueGrowthSF218FeedViewControllerC", "Post"]
 - !private ["13TrueGrowthSF218FeedViewControllerC", "String"]
 - ["13TrueGrowthSF218FeedViewControllerC", "UIButton"]
-- !private ["13TrueGrowthSF218FeedViewControllerC", "UIColor"]
 - !private ["13TrueGrowthSF218FeedViewControllerC", "UIControl"]
 - !private ["13TrueGrowthSF218FeedViewControllerC", "UIImage"]
 - ["13TrueGrowthSF218FeedViewControllerC", "UIProgressView"]
@@ -613,7 +594,6 @@ depends-member:
 - !private ["SH", "NSURL"]
 - ["SH", "Post"]
 - !private ["SH", "State"]
-- !private ["SH", "UIColor"]
 - !private ["SH", "UIControl"]
 - !private ["SH", "UIImage"]
 - !private ["SH", "URLSession"]
@@ -683,7 +663,6 @@ depends-member:
 - !private ["SH", "value"]
 - !private ["SH", "viewDidLoad"]
 - !private ["SH", "withRenderingMode"]
-- !private ["SH", "yellow"]
 - !private ["10Foundation9IndexPathV", "row"]
 - !private ["13TrueGrowthSF24LikeC", "init"]
 - !private ["13TrueGrowthSF24LikeC", "photoUrl"]
@@ -714,7 +693,6 @@ depends-member:
 - !private ["So8NSCodingP", "NSURL"]
 - ["So8NSCodingP", "Post"]
 - !private ["So8NSCodingP", "State"]
-- !private ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "UIControl"]
 - !private ["So8NSCodingP", "UIImage"]
 - !private ["So8NSCodingP", "URLSession"]
@@ -755,10 +733,8 @@ depends-member:
 - !private ["So8NSCodingP", "tintColor"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - !private ["So8NSCodingP", "withRenderingMode"]
-- !private ["So8NSCodingP", "yellow"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "resume"]
-- !private ["So9NSCopyingP", "yellow"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - !private ["So26NSExtensionRequestHandlingP", "Database"]
 - !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
@@ -766,7 +742,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "LoginViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "NSURL"]
 - ["So26NSExtensionRequestHandlingP", "Post"]
-- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
 - !private ["So26NSExtensionRequestHandlingP", "UIControl"]
 - !private ["So26NSExtensionRequestHandlingP", "UIImage"]
 - !private ["So26NSExtensionRequestHandlingP", "URLSession"]
@@ -795,11 +770,9 @@ depends-member:
 - !private ["So21NSItemProviderReadingP", "UIImage"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "withRenderingMode"]
-- !private ["So21NSItemProviderReadingP", "yellow"]
 - !private ["So21NSItemProviderWritingP", "UIImage"]
 - !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "withRenderingMode"]
-- !private ["So21NSItemProviderWritingP", "yellow"]
 - !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "Database"]
@@ -887,7 +860,6 @@ depends-member:
 - !private ["So8NSObjectC", "value"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectC", "withRenderingMode"]
-- !private ["So8NSObjectC", "yellow"]
 - !private ["So8NSObjectP", "Auth"]
 - !private ["So8NSObjectP", "Database"]
 - !private ["So8NSObjectP", "DispatchQueue"]
@@ -896,7 +868,6 @@ depends-member:
 - !private ["So8NSObjectP", "NSURL"]
 - ["So8NSObjectP", "Post"]
 - !private ["So8NSObjectP", "State"]
-- !private ["So8NSObjectP", "UIColor"]
 - !private ["So8NSObjectP", "UIControl"]
 - !private ["So8NSObjectP", "UIImage"]
 - !private ["So8NSObjectP", "URLSession"]
@@ -955,11 +926,9 @@ depends-member:
 - !private ["So8NSObjectP", "value"]
 - !private ["So8NSObjectP", "viewDidLoad"]
 - !private ["So8NSObjectP", "withRenderingMode"]
-- !private ["So8NSObjectP", "yellow"]
 - !private ["So14NSSecureCodingP", "UIImage"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "withRenderingMode"]
-- !private ["So14NSSecureCodingP", "yellow"]
 - !private ["So5NSURLC", "init"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "main"]
@@ -1075,7 +1044,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "NSURL"]
 - ["So21UIAppearanceContainerP", "Post"]
 - !private ["So21UIAppearanceContainerP", "State"]
-- !private ["So21UIAppearanceContainerP", "UIColor"]
 - !private ["So21UIAppearanceContainerP", "UIControl"]
 - !private ["So21UIAppearanceContainerP", "UIImage"]
 - !private ["So21UIAppearanceContainerP", "URLSession"]
@@ -1117,8 +1085,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So8UIButtonC", "setImage"]
 - !private ["So8UIButtonC", "superview"]
-- !private ["So8UIButtonC", "tintColor"]
-- !private ["So7UIColorC", "yellow"]
 - !private ["So18UIContentContainerP", "Auth"]
 - !private ["So18UIContentContainerP", "Database"]
 - !private ["So18UIContentContainerP", "DispatchQueue"]
@@ -1126,7 +1092,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "LoginViewController"]
 - !private ["So18UIContentContainerP", "NSURL"]
 - ["So18UIContentContainerP", "Post"]
-- !private ["So18UIContentContainerP", "UIColor"]
 - !private ["So18UIContentContainerP", "UIControl"]
 - !private ["So18UIContentContainerP", "UIImage"]
 - !private ["So18UIContentContainerP", "URLSession"]
@@ -1156,7 +1121,6 @@ depends-member:
 - !private ["So9UIControlC", "State"]
 - !private ["So9UIControlC", "setImage"]
 - !private ["So9UIControlC", "superview"]
-- !private ["So9UIControlC", "tintColor"]
 - !private ["So17UICoordinateSpaceP", "State"]
 - ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "dataSource"]
@@ -1206,7 +1170,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "NSURL"]
 - ["So18UIFocusEnvironmentP", "Post"]
 - !private ["So18UIFocusEnvironmentP", "State"]
-- !private ["So18UIFocusEnvironmentP", "UIColor"]
 - !private ["So18UIFocusEnvironmentP", "UIControl"]
 - !private ["So18UIFocusEnvironmentP", "UIImage"]
 - !private ["So18UIFocusEnvironmentP", "URLSession"]
@@ -1306,7 +1269,6 @@ depends-member:
 - !private ["So31UIImagePickerControllerDelegateP", "LoginViewController"]
 - !private ["So31UIImagePickerControllerDelegateP", "NSURL"]
 - ["So31UIImagePickerControllerDelegateP", "Post"]
-- !private ["So31UIImagePickerControllerDelegateP", "UIColor"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIControl"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIImage"]
 - !private ["So31UIImagePickerControllerDelegateP", "URLSession"]
@@ -1343,7 +1305,6 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "LoginViewController"]
 - !private ["So30UINavigationControllerDelegateP", "NSURL"]
 - ["So30UINavigationControllerDelegateP", "Post"]
-- !private ["So30UINavigationControllerDelegateP", "UIColor"]
 - !private ["So30UINavigationControllerDelegateP", "UIControl"]
 - !private ["So30UINavigationControllerDelegateP", "UIImage"]
 - !private ["So30UINavigationControllerDelegateP", "URLSession"]
@@ -1373,7 +1334,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "NSURL"]
 - ["So30UIPasteConfigurationSupportingP", "Post"]
 - !private ["So30UIPasteConfigurationSupportingP", "State"]
-- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIControl"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "URLSession"]
@@ -1489,7 +1449,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "NSURL"]
 - ["So30UIResponderStandardEditActionsP", "Post"]
 - !private ["So30UIResponderStandardEditActionsP", "State"]
-- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIControl"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
 - !private ["So30UIResponderStandardEditActionsP", "URLSession"]
@@ -1541,7 +1500,6 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "superview"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
 - !private ["So16UIStateRestoringP", "Auth"]
 - !private ["So16UIStateRestoringP", "Database"]
 - !private ["So16UIStateRestoringP", "DispatchQueue"]
@@ -1549,7 +1507,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "LoginViewController"]
 - !private ["So16UIStateRestoringP", "NSURL"]
 - ["So16UIStateRestoringP", "Post"]
-- !private ["So16UIStateRestoringP", "UIColor"]
 - !private ["So16UIStateRestoringP", "UIControl"]
 - !private ["So16UIStateRestoringP", "UIImage"]
 - !private ["So16UIStateRestoringP", "URLSession"]
@@ -1597,7 +1554,6 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "LoginViewController"]
 - !private ["So21UITableViewDataSourceP", "NSURL"]
 - ["So21UITableViewDataSourceP", "Post"]
-- !private ["So21UITableViewDataSourceP", "UIColor"]
 - !private ["So21UITableViewDataSourceP", "UIControl"]
 - !private ["So21UITableViewDataSourceP", "UIImage"]
 - !private ["So21UITableViewDataSourceP", "URLSession"]
@@ -1628,7 +1584,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "NSURL"]
 - ["So18UITraitEnvironmentP", "Post"]
 - !private ["So18UITraitEnvironmentP", "State"]
-- !private ["So18UITraitEnvironmentP", "UIColor"]
 - !private ["So18UITraitEnvironmentP", "UIControl"]
 - !private ["So18UITraitEnvironmentP", "UIImage"]
 - !private ["So18UITraitEnvironmentP", "URLSession"]
@@ -1676,7 +1631,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "NSURL"]
 - ["So23UIUserActivityRestoringP", "Post"]
 - !private ["So23UIUserActivityRestoringP", "State"]
-- !private ["So23UIUserActivityRestoringP", "UIColor"]
 - !private ["So23UIUserActivityRestoringP", "UIControl"]
 - !private ["So23UIUserActivityRestoringP", "UIImage"]
 - !private ["So23UIUserActivityRestoringP", "URLSession"]
@@ -1752,7 +1706,6 @@ depends-member:
 - ["So16UIViewControllerC", "Post"]
 - !private ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UIButton"]
-- !private ["So16UIViewControllerC", "UIColor"]
 - !private ["So16UIViewControllerC", "UIControl"]
 - !private ["So16UIViewControllerC", "UIImage"]
 - ["So16UIViewControllerC", "UIProgressView"]
@@ -1829,7 +1782,6 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s26_ExpressibleByColorLiteralP", "yellow"]
 - !private ["s26_ExpressibleByImageLiteralP", "UIImage"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s26_ExpressibleByImageLiteralP", "withRenderingMode"]
@@ -1849,7 +1801,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Post"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "State"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIControl"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
@@ -1908,7 +1859,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "withRenderingMode"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "yellow"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
@@ -2005,7 +1955,6 @@ depends-nominal:
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - !private "So8UIButtonC"
-- !private "So7UIColorC"
 - "So18UIContentContainerP"
 - !private "So30UIContentSizeCategoryAdjustingP"
 - !private "So9UIControlC"
@@ -2051,7 +2000,6 @@ depends-nominal:
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - "s35_HasCustomAnyHashableRepresentationP"

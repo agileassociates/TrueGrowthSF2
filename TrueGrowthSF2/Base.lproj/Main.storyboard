@@ -242,7 +242,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Dgr-5d-nmE"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="feed" image="news_feed_icon" id="Evs-AJ-67z" userLabel="Feed">
+                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="Evs-AJ-67z" userLabel="Feed">
                         <color key="badgeColor" red="0.20009903170000001" green="0.45901188380000002" blue="0.27822403169999999" alpha="0.79778279050000001" colorSpace="calibratedRGB"/>
                     </tabBarItem>
                     <connections>
@@ -408,7 +408,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="f4M-wC-NEL"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="f4M-wC-NEL"/>
                     <connections>
                         <outlet property="contactsTableView" destination="2eW-Qn-kG7" id="mlA-8q-RVz"/>
                     </connections>
@@ -660,7 +660,6 @@
         <image name="facebook_logo" width="50" height="50"/>
         <image name="google_logo" width="50" height="38"/>
         <image name="logout_icon" width="28.5" height="28.5"/>
-        <image name="news_feed_icon" width="29" height="29"/>
         <image name="placeholder" width="72" height="72"/>
         <image name="post_icon" width="29" height="29"/>
         <image name="truegrowth_background" width="1272" height="1920"/>

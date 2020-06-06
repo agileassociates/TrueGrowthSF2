@@ -7,9 +7,9 @@
 	<string>FirebaseCore</string>
 	<string>Bolts</string>
 	<string>WebKit</string>
+	<string>libkern</string>
 	<string>Photos</string>
 	<string>FirebaseStorage</string>
-	<string>libkern</string>
 	<string>FirebaseInAppMessaging</string>
 	<string>FirebaseDatabase</string>
 	<string>StoreKit</string>
@@ -26,10 +26,10 @@
 	<string>WatchKit</string>
 	<string>FirebaseInstanceID</string>
 	<string>FirebaseMLVisionFaceModel</string>
-	<string>CoreText</string>
+	<string>AdSupport</string>
 	<string>FirebaseAuthInterop</string>
 	<string>FirebaseAuth</string>
-	<string>AdSupport</string>
+	<string>CoreText</string>
 	<string>FirebaseMLVisionLabelModel</string>
 	<string>FBSDKLoginKit</string>
 	<string>FirebaseInvites</string>
@@ -59,9 +59,9 @@
 	<string>FacebookCore</string>
 	<string>UIKit</string>
 	<string>Fabric</string>
-	<string>CoreTelephony</string>
 	<string>FirebaseMLVisionBarcodeModel</string>
 	<string>Foundation</string>
+	<string>CoreTelephony</string>
 	<string>sys</string>
 	<string>FirebaseFirestore</string>
 </array>
