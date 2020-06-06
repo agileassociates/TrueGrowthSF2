@@ -29,6 +29,8 @@
 		F489B63121CDB95600134A0C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489B63021CDB95600134A0C /* ProfileViewController.swift */; };
 		F489B63321CDBC8B00134A0C /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489B63221CDBC8B00134A0C /* CreatePostViewController.swift */; };
 		F4A3E58221C9F11F006BB7EE /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3E58121C9F11F006BB7EE /* FacebookButton.swift */; };
+		F4D9E8F0248BF91D00466574 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9E8EF248BF91D00466574 /* Profile.swift */; };
+		F4D9E8F2248C1F7500466574 /* CameraTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9E8F1248C1F7500466574 /* CameraTwoViewController.swift */; };
 		F4F6035D21CAA8C8001B71B7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F6035C21CAA8C8001B71B7 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		F489B63021CDB95600134A0C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F489B63221CDBC8B00134A0C /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		F4A3E58121C9F11F006BB7EE /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
+		F4D9E8EF248BF91D00466574 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F4D9E8F1248C1F7500466574 /* CameraTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTwoViewController.swift; sourceTree = "<group>"; };
 		F4F6035C21CAA8C8001B71B7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +149,7 @@
 				F489B62C21CB120C00134A0C /* EmailLoginViewController.swift */,
 				F489B63021CDB95600134A0C /* ProfileViewController.swift */,
 				F489B63221CDBC8B00134A0C /* CreatePostViewController.swift */,
+				F4D9E8F1248C1F7500466574 /* CameraTwoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			children = (
 				F41253FD21E55B2D00FC32E6 /* Post.swift */,
 				F42C05B2228F840800FBBB05 /* Like.swift */,
+				F4D9E8EF248BF91D00466574 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -361,7 +367,9 @@
 				F485EAD121CF38C8006403E2 /* CircularProgressBar.swift in Sources */,
 				F40DE0A021E179DC00EC685D /* CameraViewController.swift in Sources */,
 				F41C2CF821C9C932008CD3D6 /* AppDelegate.swift in Sources */,
+				F4D9E8F0248BF91D00466574 /* Profile.swift in Sources */,
 				F418624322D595E700387124 /* ReflectedStringConvertible.swift in Sources */,
+				F4D9E8F2248C1F7500466574 /* CameraTwoViewController.swift in Sources */,
 				F467B81E21CADF96005339A5 /* RoundedCornerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

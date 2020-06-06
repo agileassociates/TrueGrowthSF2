@@ -22,51 +22,59 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/2eh-iW-Nkc-view-6lp-um-PBv.nib</key>
 		<data>
-		Iq4CYvDNY9VTptqBxonIlfKMqyM=
+		iw4Xh2nxLk8779hjYPaYKUQ7/UM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/9Wo-rL-xgk-view-Zq6-vv-Bgm.nib</key>
 		<data>
-		8yy7ermRWrxSi00X5IceCAHkYFc=
+		EIFYRiuH4ktL561+rRq02zVA3vk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		m64kRuz1AYdWOXXaJ3Mt+FWSwJU=
+		FY4UAwtuoLVCcsucu4km0EsRBAY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/EmailLoginViewController.nib</key>
 		<data>
-		yHWUlrzpA0a2WqJUf1mBDjxxC7I=
+		0u83alDpa85uLyoe1Ag+UkNxpJY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/FeedViewController.nib</key>
 		<data>
-		au/6a7u6jjBdQXk7rgi9dGMzaaw=
+		PxxeWlYyaRnL9N8MFHSRrxXsr14=
 		</data>
 		<key>Base.lproj/Main.storyboardc/IBG-Cy-DSh-view-jHz-qP-h5V.nib</key>
 		<data>
-		qcoyNkXX0vN0Hkk07s38WDkkcXA=
+		UvL2nZuid/iLZ/dKFurb3h6EaFE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		jGn1wsef0Ji0dlfk0HeWi4akcvQ=
+		FnPxylL+LZVpBN4dBDBxK+F+DRI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/LoginViewController.nib</key>
 		<data>
-		xNYP/kioWZnp5iDKs8yoGOCNnH8=
+		ogHdnZFXZVSmUxPgG81W7Fs3uVE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TabBarController.nib</key>
 		<data>
-		jZn/57Znj8FH7KYJhifnkMoHHhk=
+		dtrED5cPzM7qhWXGsnuRbYaNd0Y=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-2eh-iW-Nkc.nib</key>
 		<data>
-		0+10gSDgWQDI7khnFD7fJx1tJfU=
+		HCgDLXnXkxIGw9HLDm6o1aRhkCA=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-gGw-30-dps.nib</key>
+		<data>
+		TFm2EeYVViLDTJxN3WpmmDofRFU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Xb8-CX-mxJ-view-Ump-ra-mk6.nib</key>
 		<data>
-		b9F+xRpmzFbwNycq0m2mFiujSOM=
+		AhvYcSDxkHKSs8dMmgVwBEmzJdw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/dKE-hD-LyO-view-fkS-wr-vpS.nib</key>
 		<data>
-		MiqoALtqs20lzChEyT+aty9aXUk=
+		0wHWB3svBRXB67E/hRRNmH1jLbo=
+		</data>
+		<key>Base.lproj/Main.storyboardc/gGw-30-dps-view-TUl-6n-wSR.nib</key>
+		<data>
+		Zx4JhhS7qlSm+0womTBw38ivPAs=
 		</data>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
@@ -1073,84 +1081,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n7q4DcmavXlZ4FK68Fa/datdXcre7mWIquz8B9jjyV0=
+			LqYjRKxckOze4EG0e2tJ2If43MMvpQw3LjaOMcLjDl0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/9Wo-rL-xgk-view-Zq6-vv-Bgm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R6sVKZOF4t4/jtb++/w5IUrWsyJsu1IW7wf0j4CZBeM=
+			aWrPpzHVeMioDzd2CavpVEj0m2UO8eWal2FnLzI2iYw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UTCnwOf34F3fBmRZcdux1DNUM+LQiKznS5ouFMFPmQI=
+			I91uY/svhnYud6i02562VqkxF0QeGK+kK1a14+C1ieA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/EmailLoginViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p69G5MD2Hf0I2nlyMGnzlAEBXGPDNO+KOFXrZ+Eb5I8=
+			e8Cp4MrOlTOema1MMR0E5f4hT3juhwJFntgXHYJKzKI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/FeedViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fXAY84ikfQrusDuUXSuJsykTmK3C+dcC7Jj8YhPqZ6s=
+			GoKYTX/GON5jcZEgrEN8J0MhSI+k1oGXw5ZiQIqaCxQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/IBG-Cy-DSh-view-jHz-qP-h5V.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LX7ZDa3tMahVGKnq4zItt8Tb60HF54arKlY37H6OS0k=
+			GJvhXx5jbPG8/taFPAQ7+kJftjEIXzxRqjfsFQ/O6v4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6nNMu22Znq//6eJFi2Ufhk7cJ8gFNTGjFQQ6jwWbI0=
+			ov9ejDEYeVxygDIrqz+6PimdH9SleSNTnK4vxmP5nCY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/LoginViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xeWvM3TxA5DxEDq34hPUZXMy7Oe7VA28CWRJOeFf6bE=
+			kFGc4RTrd7JthYH2vBOdd4oIi7z1TEMxcyEUdDVQhuQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TabBarController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dXu20gS+zlKJbPe6vti0JJawryfBoBQUtOUGqcv36ro=
+			hQ4BodeAR5FUPNGR4kxCJkuDev/35UR7FloZdi6VVFo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-2eh-iW-Nkc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EFcCqsKS88TTSHuhhBMr51oAv1nQZUQnu4YiPIgc0ZQ=
+			FW1+thh+c05aCPqOk/lTDrduorm6Xd73A1y4h2nV3U8=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-gGw-30-dps.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fiXh/eZSXz0muFEBburl+pSMLbHAqz2g2QH6IUtI6gc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Xb8-CX-mxJ-view-Ump-ra-mk6.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dpbR93TmsRmTAO7mb7W+AjNB0recFiK/CY7VI0tVVgU=
+			oilyBB3d6UHKFpFn3DBpONfxfe0FwtMaJ+FnjKKmqMc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/dKE-hD-LyO-view-fkS-wr-vpS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CwcNjSREVnXAXy2W2Ebp30gbLTRzZ9SohJbN3iepOxU=
+			c/9y18dGt8OhZbQemFMD4lwCv0gJGeP77NXjXMxKrGA=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/gGw-30-dps-view-TUl-6n-wSR.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b8lKSU94dD/YpSM9P3dvidq5XxnVpwq8bjz9Cgea1Js=
 			</data>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>

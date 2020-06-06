@@ -170,12 +170,10 @@ extension FeedViewController: UITableViewDataSource {
             }
             
             }).resume()
-        
 //        cell.likedImageView.tag = indexPath.row
 //        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
 //        cell.likedImageView.isUserInteractionEnabled = true
 //        cell.likedImageView.addGestureRecognizer(tapGestureRecognizer)
-//
         return cell
     }
     
