@@ -6,6 +6,35 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>162043D0-A753-434F-82DC-D1A1E80C31DD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>162043D0-A753-434F-82DC-D1A1E80C31DD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TrueGrowthSF2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TrueGrowthSF2</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TrueGrowthSF2</string>
+			<key>timeStartedRecording</key>
+			<real>613133225.49940205</real>
+			<key>timeStoppedRecording</key>
+			<real>613133233.03825796</real>
+			<key>title</key>
+			<string>Build TrueGrowthSF2</string>
+			<key>uniqueIdentifier</key>
+			<string>162043D0-A753-434F-82DC-D1A1E80C31DD</string>
+		</dict>
 		<key>33CFB556-BD59-4ACB-A912-E85F169F7108</key>
 		<dict>
 			<key>className</key>
@@ -63,6 +92,35 @@
 			<string>Build TrueGrowthSF2</string>
 			<key>uniqueIdentifier</key>
 			<string>869C9D0C-CC8F-4A4D-82A1-BB8AFD1B130F</string>
+		</dict>
+		<key>923A9981-6B93-4D23-9A25-53777787F44C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>923A9981-6B93-4D23-9A25-53777787F44C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TrueGrowthSF2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TrueGrowthSF2</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TrueGrowthSF2</string>
+			<key>timeStartedRecording</key>
+			<real>613133508.82514203</real>
+			<key>timeStoppedRecording</key>
+			<real>613133515.37224197</real>
+			<key>title</key>
+			<string>Build TrueGrowthSF2</string>
+			<key>uniqueIdentifier</key>
+			<string>923A9981-6B93-4D23-9A25-53777787F44C</string>
 		</dict>
 		<key>959EC2C8-CF25-4B7E-BD92-88902FC2306D</key>
 		<dict>

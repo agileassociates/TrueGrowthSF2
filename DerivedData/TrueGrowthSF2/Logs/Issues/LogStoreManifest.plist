@@ -259,6 +259,29 @@
 			<key>uniqueIdentifier</key>
 			<string>6B582887-6CA4-47DC-ACD3-C05A7EB94FC1</string>
 		</dict>
+		<key>6FD2F297-5A80-450D-BB20-0547C2655027</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>6FD2F297-5A80-450D-BB20-0547C2655027.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>TrueGrowthSF2-erlehnjhgrejxzbjxlzzjwtjzsye</string>
+			<key>timeStartedRecording</key>
+			<real>613133509.68668997</real>
+			<key>timeStoppedRecording</key>
+			<real>613133515.25219798</real>
+			<key>title</key>
+			<string>Build target TrueGrowthSF2</string>
+			<key>uniqueIdentifier</key>
+			<string>6FD2F297-5A80-450D-BB20-0547C2655027</string>
+		</dict>
 		<key>7987F0DD-61C1-4DF3-BC09-A33307EB41D0</key>
 		<dict>
 			<key>className</key>
@@ -304,29 +327,6 @@
 			<string>Build target FirebaseAuth</string>
 			<key>uniqueIdentifier</key>
 			<string>94645771-EE47-4D08-8E11-3EC033180AFD</string>
-		</dict>
-		<key>9504B82F-258D-481F-9099-25A84F4FCA07</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>9504B82F-258D-481F-9099-25A84F4FCA07.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>signature</key>
-			<string>TrueGrowthSF2-erlehnjhgrejxzbjxlzzjwtjzsye</string>
-			<key>timeStartedRecording</key>
-			<real>613127336.76681995</real>
-			<key>timeStoppedRecording</key>
-			<real>613127345.11490703</real>
-			<key>title</key>
-			<string>Build target TrueGrowthSF2</string>
-			<key>uniqueIdentifier</key>
-			<string>9504B82F-258D-481F-9099-25A84F4FCA07</string>
 		</dict>
 		<key>AB1F296E-4341-4BBB-8402-4449B6466522</key>
 		<dict>

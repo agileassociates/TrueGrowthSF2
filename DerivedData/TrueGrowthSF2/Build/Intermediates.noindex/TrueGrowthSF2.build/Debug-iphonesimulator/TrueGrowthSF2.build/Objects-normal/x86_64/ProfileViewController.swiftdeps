@@ -13,6 +13,7 @@ provides-dynamic-lookup:
 - "tableView"
 - "viewDidLoad"
 depends-top-level:
+- "AssignmentPrecedence"
 - !private "Auth"
 - !private "BooleanLiteralType"
 - "ProfileViewController"
@@ -22,22 +23,30 @@ depends-top-level:
 - "UILabel"
 - "UITableView"
 - "UIViewController"
+- !private "print"
 depends-member:
 - !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
 - !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
 - !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "currentUser"]
 - !private ["So7FIRAuthC", "signOut"]
 - !private ["SK", "init"]
 - !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "text"]
 - !private ["s7CVarArgP", "Auth"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "currentUser"]
+- !private ["s7CVarArgP", "email"]
+- !private ["s7CVarArgP", "emailLabel"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "instantiateViewController"]
 - !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "signOut"]
 - !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["Sl", "init"]
 - !private ["Sl", "init"]
@@ -46,43 +55,62 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
+- !private ["s28CustomDebugStringConvertibleP", "email"]
+- !private ["s28CustomDebugStringConvertibleP", "emailLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "signOut"]
 - !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
+- !private ["s23CustomStringConvertibleP", "email"]
+- !private ["s23CustomStringConvertibleP", "emailLabel"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "instantiateViewController"]
 - !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "signOut"]
 - !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["Se", "init"]
 - !private ["Se", "init"]
+- !private ["Se", "text"]
 - !private ["SE", "init"]
 - !private ["SE", "init"]
+- !private ["SE", "text"]
 - !private ["SQ", "Auth"]
 - ["SQ", ""]
 - !private ["SQ", "auth"]
+- !private ["SQ", "currentUser"]
+- !private ["SQ", "email"]
+- !private ["SQ", "emailLabel"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
 - !private ["SQ", "instantiateViewController"]
 - !private ["SQ", "present"]
+- !private ["SQ", "print"]
 - !private ["SQ", "signOut"]
 - !private ["SQ", "storyboard"]
+- !private ["SQ", "text"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
@@ -90,12 +118,17 @@ depends-member:
 - !private ["SH", "Auth"]
 - ["SH", ""]
 - !private ["SH", "auth"]
+- !private ["SH", "currentUser"]
+- !private ["SH", "email"]
+- !private ["SH", "emailLabel"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
 - !private ["SH", "instantiateViewController"]
 - !private ["SH", "present"]
+- !private ["SH", "print"]
 - !private ["SH", "signOut"]
 - !private ["SH", "storyboard"]
+- !private ["SH", "text"]
 - !private ["SH", "viewDidLoad"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
@@ -103,16 +136,21 @@ depends-member:
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "Auth"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "emailLabel"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "emailLabel"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "storyboard"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So8NSObjectC", "Auth"]
@@ -121,6 +159,8 @@ depends-member:
 - ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "UITableView"]
 - !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "currentUser"]
+- !private ["So8NSObjectC", "email"]
 - ["So8NSObjectC", "emailLabel"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
@@ -128,21 +168,29 @@ depends-member:
 - ["So8NSObjectC", "logoutBtnPressed"]
 - ["So8NSObjectC", "logoutButton"]
 - !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "profileImage"]
 - !private ["So8NSObjectC", "signOut"]
 - !private ["So8NSObjectC", "storyboard"]
 - ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectP", "Auth"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "currentUser"]
+- !private ["So8NSObjectP", "email"]
+- !private ["So8NSObjectP", "emailLabel"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "instantiateViewController"]
 - !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "signOut"]
 - !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
 - !private ["13TrueGrowthSF221ProfileViewControllerC", "Auth"]
 - ["13TrueGrowthSF221ProfileViewControllerC", "UIButton"]
 - ["13TrueGrowthSF221ProfileViewControllerC", "UIImageView"]
@@ -153,6 +201,7 @@ depends-member:
 - ["13TrueGrowthSF221ProfileViewControllerC", "logoutBtnPressed"]
 - ["13TrueGrowthSF221ProfileViewControllerC", "logoutButton"]
 - !private ["13TrueGrowthSF221ProfileViewControllerC", "present"]
+- !private ["13TrueGrowthSF221ProfileViewControllerC", "print"]
 - ["13TrueGrowthSF221ProfileViewControllerC", "profileImage"]
 - !private ["13TrueGrowthSF221ProfileViewControllerC", "storyboard"]
 - ["13TrueGrowthSF221ProfileViewControllerC", "tableView"]
@@ -169,33 +218,52 @@ depends-member:
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
 - !private ["So21UIAppearanceContainerP", "Auth"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "emailLabel"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So18UIContentContainerP", "Auth"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "emailLabel"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "storyboard"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
 - !private ["So18UIFocusEnvironmentP", "Auth"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "emailLabel"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UILabelC", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "emailLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "UIButton"]
@@ -208,39 +276,53 @@ depends-member:
 - ["So11UIResponderC", "logoutBtnPressed"]
 - ["So11UIResponderC", "logoutButton"]
 - !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "profileImage"]
 - !private ["So11UIResponderC", "storyboard"]
 - ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "emailLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So16UIStateRestoringP", "Auth"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "emailLabel"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "storyboard"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So12UIStoryboardC", "instantiateViewController"]
 - !private ["So18UITraitEnvironmentP", "Auth"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "emailLabel"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "Auth"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "emailLabel"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "print"]
 - !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "Auth"]
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UIImageView"]
@@ -253,10 +335,14 @@ depends-member:
 - ["So16UIViewControllerC", "logoutBtnPressed"]
 - ["So16UIViewControllerC", "logoutButton"]
 - !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "profileImage"]
 - !private ["So16UIViewControllerC", "storyboard"]
 - ["So16UIViewControllerC", "tableView"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So7FIRUserC", "email"]
+- !private ["So11FIRUserInfoP", "email"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -270,21 +356,28 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
 - !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "12FacebookCore26AppEventParameterValueTypeP"
 - !private "So7FIRAuthC"
 - !private "SK"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
@@ -296,6 +389,7 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
@@ -305,6 +399,7 @@ depends-nominal:
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sq"
 - "13TrueGrowthSF221ProfileViewControllerC"
 - !private "Sm"
 - !private "ST"
@@ -312,9 +407,17 @@ depends-nominal:
 - !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -322,7 +425,11 @@ depends-nominal:
 - !private "So12UIStoryboardC"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "So7FIRUserC"
+- !private "So11FIRUserInfoP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
@@ -503,4 +610,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "26b7d5a6e8e1428fbfcd9441f4d71c2c"
+interface-hash: "ccf23640dc6661bebf8ad7dfd150e2d4"

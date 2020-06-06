@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+import MobileCoreServices
+
 
 
 class ProfileViewController: UIViewController {
@@ -20,6 +22,9 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let currentUser = Auth.auth().currentUser
+        print(currentUser?.email)
+        emailLabel.text = currentUser?.email
     }
     
     @IBAction func logoutBtnPressed(_ sender: Any) {
