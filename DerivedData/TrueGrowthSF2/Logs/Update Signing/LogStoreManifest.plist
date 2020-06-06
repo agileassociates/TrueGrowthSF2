@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>AFDD76D5-2254-4E3C-BA71-8DF5432B84EB</key>
+		<key>27B5F0AE-39F7-4D23-9A62-E70E6BC7CD9F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,21 +15,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>AFDD76D5-2254-4E3C-BA71-8DF5432B84EB.xcactivitylog</string>
+			<string>27B5F0AE-39F7-4D23-9A62-E70E6BC7CD9F.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>E</string>
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>536457694.64240003</real>
+			<real>613125067.99464798</real>
 			<key>timeStoppedRecording</key>
-			<real>536457694.67189002</real>
+			<real>613125068.92949295</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>AFDD76D5-2254-4E3C-BA71-8DF5432B84EB</string>
+			<string>27B5F0AE-39F7-4D23-9A62-E70E6BC7CD9F</string>
 		</dict>
-		<key>E6D1E761-3B4D-47AA-98AC-2842E96E84F5</key>
+		<key>F6EE0FA2-D86D-4684-BF71-1559C0CE78CC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -38,19 +38,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>E6D1E761-3B4D-47AA-98AC-2842E96E84F5.xcactivitylog</string>
+			<string>F6EE0FA2-D86D-4684-BF71-1559C0CE78CC.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>E</string>
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>569881007.39838505</real>
+			<real>613123763.02266395</real>
 			<key>timeStoppedRecording</key>
-			<real>569881008.90154803</real>
+			<real>613123764.61280203</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>E6D1E761-3B4D-47AA-98AC-2842E96E84F5</string>
+			<string>F6EE0FA2-D86D-4684-BF71-1559C0CE78CC</string>
 		</dict>
 	</dict>
 </dict>

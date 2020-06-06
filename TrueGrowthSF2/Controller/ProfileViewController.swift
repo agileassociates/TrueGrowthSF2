@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import Firebase
+
 
 class ProfileViewController: UIViewController {
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var logoutButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,13 @@ class ProfileViewController: UIViewController {
     }
     
     @IBAction func logoutBtnPressed(_ sender: Any) {
+        
+        try! Auth.auth().signOut()
+
+        
+        let LoginVC = storyboard?.instantiateViewController(withIdentifier: "LoginViewController")
+        present(LoginVC!, animated: true, completion: nil)
+
     }
     
     /*

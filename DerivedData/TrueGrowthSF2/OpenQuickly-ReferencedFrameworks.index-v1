@@ -6,8 +6,8 @@
 	<string>FacebookLogin</string>
 	<string>FirebaseCore</string>
 	<string>Bolts</string>
-	<string>libkern</string>
 	<string>WebKit</string>
+	<string>libkern</string>
 	<string>Photos</string>
 	<string>FirebaseStorage</string>
 	<string>FirebaseInAppMessaging</string>
@@ -42,12 +42,13 @@
 	<string>CommonCrypto</string>
 	<string>GoogleUtilities</string>
 	<string>FirebaseRemoteConfig</string>
+	<string>GoogleSignIn</string>
 	<string>unicode</string>
 	<string>FirebaseMLVision</string>
 	<string>FirebaseCrash</string>
 	<string>GTMSessionFetcher</string>
-	<string>QuartzCore</string>
 	<string>AudioToolbox</string>
+	<string>QuartzCore</string>
 	<string>SystemConfiguration</string>
 	<string>FirebaseAnalytics</string>
 	<string>Security</string>

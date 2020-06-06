@@ -165,6 +165,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import CoreGraphics;
 @import Foundation;
+@import GoogleSignIn;
 @import UIKit;
 #endif
 
@@ -185,11 +186,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class UIWindow;
 @class UIApplication;
+@class GIDSignIn;
+@class GIDGoogleUser;
 
 SWIFT_CLASS("_TtC13TrueGrowthSF211AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <GIDSignInDelegate, UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
+- (void)signIn:(GIDSignIn * _Null_unspecified)signIn didSignInForUser:(GIDGoogleUser * _Null_unspecified)user withError:(NSError * _Null_unspecified)error;
 - (BOOL)application:(UIApplication * _Nonnull)app openURL:(NSURL * _Nonnull)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> * _Nonnull)options SWIFT_WARN_UNUSED_RESULT;
 - (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
 - (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
@@ -278,6 +282,7 @@ SWIFT_CLASS("_TtC13TrueGrowthSF212FeedViewCell")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImageView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified emailLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImageView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified likeButton;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -295,10 +300,13 @@ SWIFT_CLASS("_TtC13TrueGrowthSF218FeedViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITapGestureRecognizer;
 
 @interface FeedViewController (SWIFT_EXTENSION(TrueGrowthSF2)) <UITableViewDataSource>
+- (IBAction)likedBtnPressed:(UIButton * _Nonnull)sender;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)imageTappedWithTapGestureRecognizer:(UITapGestureRecognizer * _Nonnull)tapGestureRecognizer;
 @end
 
 
@@ -314,8 +322,9 @@ SWIFT_CLASS("_TtC13TrueGrowthSF220GroupsViewController")
 
 
 SWIFT_CLASS("_TtC13TrueGrowthSF219LoginViewController")
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <GIDSignInUIDelegate>
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified trueGrowthLogo;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified facebookLoginBtn;
 - (void)viewDidLoad;
 - (IBAction)googleSignInBtnPressed:(id _Nonnull)sender;
 - (IBAction)facebookSignInBtnPressed:(id _Nonnull)sender;
@@ -330,6 +339,7 @@ SWIFT_CLASS("_TtC13TrueGrowthSF221ProfileViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified emailLabel;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified logoutButton;
 - (void)viewDidLoad;
 - (IBAction)logoutBtnPressed:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -354,6 +364,10 @@ SWIFT_CLASS("_TtC13TrueGrowthSF217RoundedCornerView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
