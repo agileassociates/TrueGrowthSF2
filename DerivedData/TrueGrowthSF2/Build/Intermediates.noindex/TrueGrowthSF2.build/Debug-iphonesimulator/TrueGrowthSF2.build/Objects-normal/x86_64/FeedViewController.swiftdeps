@@ -16,7 +16,17 @@ provides-member:
 - ["So11UIImageViewC", "setImageColor"]
 - ["So7UIImageC", "localImage"]
 provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "emailLabel"
 - "imageTapped"
+- "likeButton"
+- "likedBtnPressed"
+- "photoImageView"
+- "postButton"
+- "profileImageView"
+- "progressView"
+- "tableView"
+- "viewDidLoad"
 depends-top-level:
 - !private "!"
 - !private "!="

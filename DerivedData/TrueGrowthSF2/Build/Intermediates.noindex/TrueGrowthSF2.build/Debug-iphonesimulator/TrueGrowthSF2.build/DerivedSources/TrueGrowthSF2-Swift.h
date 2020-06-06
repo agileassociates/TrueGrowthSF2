@@ -212,6 +212,24 @@ SWIFT_CLASS("_TtC13TrueGrowthSF211AppDelegate")
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC13TrueGrowthSF223CameraTwoViewController")
+@interface CameraTwoViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified captionTextView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImage;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified shareButton;
+@property (nonatomic, weak) IBOutlet UIProgressView * _Null_unspecified progressView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified selectPhotoLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified exitButton;
+- (void)viewDidLoad;
+- (void)handleSelectPhoto;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
+- (IBAction)exitBtnPressed:(id _Nonnull)sender;
+- (IBAction)shareBtnPressed:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC13TrueGrowthSF220CameraViewController")
 @interface CameraViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified captionTextView;
@@ -341,6 +359,7 @@ SWIFT_CLASS("_TtC13TrueGrowthSF221ProfileViewController")
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified logoutButton;
 - (void)viewDidLoad;
+- (IBAction)addPhotoBtnPressed:(id _Nonnull)sender;
 - (IBAction)logoutBtnPressed:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
