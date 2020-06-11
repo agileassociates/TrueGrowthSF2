@@ -6,6 +6,64 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>4642E9B8-CBB4-4FD9-AB65-D87E4852CB4F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4642E9B8-CBB4-4FD9-AB65-D87E4852CB4F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TrueGrowthSF2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TrueGrowthSF2</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug TrueGrowthSF2</string>
+			<key>timeStartedRecording</key>
+			<real>613599142.37731004</real>
+			<key>timeStoppedRecording</key>
+			<real>613599166.93383706</real>
+			<key>title</key>
+			<string>Debug TrueGrowthSF2</string>
+			<key>uniqueIdentifier</key>
+			<string>4642E9B8-CBB4-4FD9-AB65-D87E4852CB4F</string>
+		</dict>
+		<key>61321D23-3F59-4762-9886-F0BDD11F0375</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>61321D23-3F59-4762-9886-F0BDD11F0375.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TrueGrowthSF2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TrueGrowthSF2</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug TrueGrowthSF2</string>
+			<key>timeStartedRecording</key>
+			<real>613598449.33176506</real>
+			<key>timeStoppedRecording</key>
+			<real>613599115.70594501</real>
+			<key>title</key>
+			<string>Debug TrueGrowthSF2</string>
+			<key>uniqueIdentifier</key>
+			<string>61321D23-3F59-4762-9886-F0BDD11F0375</string>
+		</dict>
 		<key>66E9AD7A-414F-487C-BD5B-C038B6696C8D</key>
 		<dict>
 			<key>className</key>
