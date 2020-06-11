@@ -16,6 +16,7 @@ depends-top-level:
 - !private "!="
 - !private "+="
 - !private "=="
+- !private "AccessToken"
 - !private "AnyObject"
 - !private "Array"
 - "AssignmentPrecedence"
@@ -25,14 +26,13 @@ depends-top-level:
 - !private "CastingPrecedence"
 - "Dictionary"
 - "Error"
-- !private "FBSDKAccessToken"
-- !private "FBSDKGraphRequest"
-- "FBSDKLoginButton"
-- "FBSDKLoginManager"
-- "FBSDKLoginManagerLoginResult"
+- "FBLoginButton"
 - !private "FacebookAuthProvider"
 - !private "GIDSignIn"
 - "GIDSignInUIDelegate"
+- !private "GraphRequest"
+- "LoginManager"
+- "LoginManagerLoginResult"
 - "LoginViewController"
 - !private "NSDictionary"
 - !private "String"
@@ -44,8 +44,8 @@ depends-top-level:
 - !private "debugPrint"
 - !private "print"
 depends-member:
-- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
-- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["So16FBSDKAccessTokenC", "current"]
+- !private ["So16FBSDKAccessTokenC", "tokenString"]
 - !private ["So7FIRAuthC", "auth"]
 - !private ["So7FIRAuthC", "currentUser"]
 - !private ["So7FIRAuthC", "signIn"]
@@ -53,12 +53,12 @@ depends-member:
 - !private ["SK", "init"]
 - !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "AccessToken"]
 - !private ["s7CVarArgP", "Auth"]
-- !private ["s7CVarArgP", "FBSDKAccessToken"]
-- !private ["s7CVarArgP", "FBSDKGraphRequest"]
-- ["s7CVarArgP", "FBSDKLoginManager"]
 - !private ["s7CVarArgP", "FacebookAuthProvider"]
 - !private ["s7CVarArgP", "GIDSignIn"]
+- !private ["s7CVarArgP", "GraphRequest"]
+- ["s7CVarArgP", "LoginManager"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "auth"]
@@ -91,12 +91,14 @@ depends-member:
 - !private ["Sl", "init"]
 - !private ["SL", "init"]
 - !private ["SL", "init"]
+- !private ["So12FBSDKCopyingP", "current"]
+- !private ["So12FBSDKCopyingP", "tokenString"]
+- !private ["s28CustomDebugStringConvertibleP", "AccessToken"]
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
-- !private ["s28CustomDebugStringConvertibleP", "FBSDKAccessToken"]
-- !private ["s28CustomDebugStringConvertibleP", "FBSDKGraphRequest"]
-- ["s28CustomDebugStringConvertibleP", "FBSDKLoginManager"]
 - !private ["s28CustomDebugStringConvertibleP", "FacebookAuthProvider"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignIn"]
+- !private ["s28CustomDebugStringConvertibleP", "GraphRequest"]
+- ["s28CustomDebugStringConvertibleP", "LoginManager"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "credential"]
@@ -131,16 +133,14 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "object"]
-- !private ["s17CustomReflectableP", "start"]
 - !private ["s17CustomReflectableP", "token"]
-- !private ["s17CustomReflectableP", "tokenString"]
 - !private ["s17CustomReflectableP", "uiDelegate"]
+- !private ["s23CustomStringConvertibleP", "AccessToken"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
-- !private ["s23CustomStringConvertibleP", "FBSDKAccessToken"]
-- !private ["s23CustomStringConvertibleP", "FBSDKGraphRequest"]
-- ["s23CustomStringConvertibleP", "FBSDKLoginManager"]
 - !private ["s23CustomStringConvertibleP", "FacebookAuthProvider"]
 - !private ["s23CustomStringConvertibleP", "GIDSignIn"]
+- !private ["s23CustomStringConvertibleP", "GraphRequest"]
+- ["s23CustomStringConvertibleP", "LoginManager"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "auth"]
@@ -172,23 +172,19 @@ depends-member:
 - !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "init"]
 - !private ["Se", "init"]
-- !private ["Se", "start"]
 - !private ["Se", "token"]
-- !private ["Se", "tokenString"]
 - !private ["Se", "uiDelegate"]
 - !private ["SE", "_getBuiltinLogicValue"]
 - !private ["SE", "init"]
 - !private ["SE", "init"]
-- !private ["SE", "start"]
 - !private ["SE", "token"]
-- !private ["SE", "tokenString"]
 - !private ["SE", "uiDelegate"]
+- !private ["SQ", "AccessToken"]
 - !private ["SQ", "Auth"]
-- !private ["SQ", "FBSDKAccessToken"]
-- !private ["SQ", "FBSDKGraphRequest"]
-- ["SQ", "FBSDKLoginManager"]
 - !private ["SQ", "FacebookAuthProvider"]
 - !private ["SQ", "GIDSignIn"]
+- !private ["SQ", "GraphRequest"]
+- ["SQ", "LoginManager"]
 - ["SQ", ""]
 - !private ["SQ", "_getBuiltinLogicValue"]
 - !private ["SQ", "auth"]
@@ -222,34 +218,22 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "object"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "start"]
 - !private ["s23ExpressibleByNilLiteralP", "token"]
-- !private ["s23ExpressibleByNilLiteralP", "tokenString"]
 - !private ["s23ExpressibleByNilLiteralP", "uiDelegate"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["So16FBSDKAccessTokenC", "current"]
-- !private ["So16FBSDKAccessTokenC", "tokenString"]
-- !private ["So12FBSDKCopyingP", "current"]
-- !private ["So12FBSDKCopyingP", "tokenString"]
-- !private ["So17FBSDKGraphRequestC", "init"]
-- !private ["So17FBSDKGraphRequestC", "start"]
-- ["So17FBSDKLoginManagerC", "init"]
-- !private ["So17FBSDKLoginManagerC", "logIn"]
-- !private ["So28FBSDKLoginManagerLoginResultC", "isCancelled"]
-- !private ["So28FBSDKLoginManagerLoginResultC", "token"]
 - !private ["So23FIRFacebookAuthProviderC", "credential"]
 - !private ["So9GIDSignInC", "sharedInstance"]
 - !private ["So9GIDSignInC", "signIn"]
 - !private ["So9GIDSignInC", "uiDelegate"]
+- !private ["So19GIDSignInUIDelegateP", "AccessToken"]
 - !private ["So19GIDSignInUIDelegateP", "Auth"]
-- !private ["So19GIDSignInUIDelegateP", "FBSDKAccessToken"]
-- !private ["So19GIDSignInUIDelegateP", "FBSDKGraphRequest"]
-- ["So19GIDSignInUIDelegateP", "FBSDKLoginManager"]
 - !private ["So19GIDSignInUIDelegateP", "FacebookAuthProvider"]
 - !private ["So19GIDSignInUIDelegateP", "GIDSignIn"]
+- !private ["So19GIDSignInUIDelegateP", "GraphRequest"]
+- ["So19GIDSignInUIDelegateP", "LoginManager"]
 - ["So19GIDSignInUIDelegateP", ""]
 - !private ["So19GIDSignInUIDelegateP", "debugPrint"]
 - !private ["So19GIDSignInUIDelegateP", "loginManager"]
@@ -259,12 +243,14 @@ depends-member:
 - ["So19GIDSignInUIDelegateP", "signIn"]
 - ["So19GIDSignInUIDelegateP", "signInWillDispatch"]
 - !private ["So19GIDSignInUIDelegateP", "storyboard"]
+- !private ["So17FBSDKGraphRequestC", "init"]
+- !private ["So17FBSDKGraphRequestC", "start"]
+- !private ["SH", "AccessToken"]
 - !private ["SH", "Auth"]
-- !private ["SH", "FBSDKAccessToken"]
-- !private ["SH", "FBSDKGraphRequest"]
-- ["SH", "FBSDKLoginManager"]
 - !private ["SH", "FacebookAuthProvider"]
 - !private ["SH", "GIDSignIn"]
+- !private ["SH", "GraphRequest"]
+- ["SH", "LoginManager"]
 - ["SH", ""]
 - !private ["SH", "_getBuiltinLogicValue"]
 - !private ["SH", "auth"]
@@ -293,17 +279,21 @@ depends-member:
 - !private ["SH", "uiDelegate"]
 - !private ["SH", "updateEmail"]
 - !private ["SH", "viewDidLoad"]
+- ["So17FBSDKLoginManagerC", "init"]
+- !private ["So17FBSDKLoginManagerC", "logIn"]
+- !private ["So28FBSDKLoginManagerLoginResultC", "isCancelled"]
+- !private ["So28FBSDKLoginManagerLoginResultC", "token"]
+- !private ["13TrueGrowthSF219LoginViewControllerC", "AccessToken"]
 - !private ["13TrueGrowthSF219LoginViewControllerC", "AnyObject"]
 - !private ["13TrueGrowthSF219LoginViewControllerC", "Auth"]
 - ["13TrueGrowthSF219LoginViewControllerC", "AuthCredential"]
 - ["13TrueGrowthSF219LoginViewControllerC", "Error"]
-- !private ["13TrueGrowthSF219LoginViewControllerC", "FBSDKAccessToken"]
-- !private ["13TrueGrowthSF219LoginViewControllerC", "FBSDKGraphRequest"]
-- ["13TrueGrowthSF219LoginViewControllerC", "FBSDKLoginButton"]
-- ["13TrueGrowthSF219LoginViewControllerC", "FBSDKLoginManager"]
-- ["13TrueGrowthSF219LoginViewControllerC", "FBSDKLoginManagerLoginResult"]
+- ["13TrueGrowthSF219LoginViewControllerC", "FBLoginButton"]
 - !private ["13TrueGrowthSF219LoginViewControllerC", "FacebookAuthProvider"]
 - !private ["13TrueGrowthSF219LoginViewControllerC", "GIDSignIn"]
+- !private ["13TrueGrowthSF219LoginViewControllerC", "GraphRequest"]
+- ["13TrueGrowthSF219LoginViewControllerC", "LoginManager"]
+- ["13TrueGrowthSF219LoginViewControllerC", "LoginManagerLoginResult"]
 - !private ["13TrueGrowthSF219LoginViewControllerC", "NSDictionary"]
 - !private ["13TrueGrowthSF219LoginViewControllerC", "String"]
 - ["13TrueGrowthSF219LoginViewControllerC", "UIButton"]
@@ -332,12 +322,12 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "AccessToken"]
 - !private ["So8NSCodingP", "Auth"]
-- !private ["So8NSCodingP", "FBSDKAccessToken"]
-- !private ["So8NSCodingP", "FBSDKGraphRequest"]
-- ["So8NSCodingP", "FBSDKLoginManager"]
 - !private ["So8NSCodingP", "FacebookAuthProvider"]
 - !private ["So8NSCodingP", "GIDSignIn"]
+- !private ["So8NSCodingP", "GraphRequest"]
+- ["So8NSCodingP", "LoginManager"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "current"]
 - !private ["So8NSCodingP", "debugPrint"]
@@ -357,12 +347,12 @@ depends-member:
 - !private ["So9NSCopyingP", "object"]
 - !private ["So9NSCopyingP", "tokenString"]
 - !private ["So12NSDictionaryC", "object"]
+- !private ["So26NSExtensionRequestHandlingP", "AccessToken"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
-- !private ["So26NSExtensionRequestHandlingP", "FBSDKAccessToken"]
-- !private ["So26NSExtensionRequestHandlingP", "FBSDKGraphRequest"]
-- ["So26NSExtensionRequestHandlingP", "FBSDKLoginManager"]
 - !private ["So26NSExtensionRequestHandlingP", "FacebookAuthProvider"]
 - !private ["So26NSExtensionRequestHandlingP", "GIDSignIn"]
+- !private ["So26NSExtensionRequestHandlingP", "GraphRequest"]
+- ["So26NSExtensionRequestHandlingP", "LoginManager"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "debugPrint"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
@@ -377,17 +367,17 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So17NSFastEnumerationP", "object"]
 - !private ["So16NSMutableCopyingP", "object"]
+- !private ["So8NSObjectC", "AccessToken"]
 - !private ["So8NSObjectC", "AnyObject"]
 - !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "AuthCredential"]
 - ["So8NSObjectC", "Error"]
-- !private ["So8NSObjectC", "FBSDKAccessToken"]
-- !private ["So8NSObjectC", "FBSDKGraphRequest"]
-- ["So8NSObjectC", "FBSDKLoginButton"]
-- ["So8NSObjectC", "FBSDKLoginManager"]
-- ["So8NSObjectC", "FBSDKLoginManagerLoginResult"]
+- ["So8NSObjectC", "FBLoginButton"]
 - !private ["So8NSObjectC", "FacebookAuthProvider"]
 - !private ["So8NSObjectC", "GIDSignIn"]
+- !private ["So8NSObjectC", "GraphRequest"]
+- ["So8NSObjectC", "LoginManager"]
+- ["So8NSObjectC", "LoginManagerLoginResult"]
 - !private ["So8NSObjectC", "NSDictionary"]
 - !private ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIButton"]
@@ -426,12 +416,12 @@ depends-member:
 - !private ["So8NSObjectC", "uiDelegate"]
 - !private ["So8NSObjectC", "updateEmail"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "AccessToken"]
 - !private ["So8NSObjectP", "Auth"]
-- !private ["So8NSObjectP", "FBSDKAccessToken"]
-- !private ["So8NSObjectP", "FBSDKGraphRequest"]
-- ["So8NSObjectP", "FBSDKLoginManager"]
 - !private ["So8NSObjectP", "FacebookAuthProvider"]
 - !private ["So8NSObjectP", "GIDSignIn"]
+- !private ["So8NSObjectP", "GraphRequest"]
+- ["So8NSObjectP", "LoginManager"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "auth"]
 - !private ["So8NSObjectP", "credential"]
@@ -462,9 +452,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "current"]
 - !private ["So14NSSecureCodingP", "object"]
 - !private ["So14NSSecureCodingP", "tokenString"]
-- !private ["Sq", "start"]
 - !private ["Sq", "token"]
-- !private ["Sq", "tokenString"]
 - !private ["Sq", "uiDelegate"]
 - !private ["Sm", "init"]
 - !private ["Sm", "init"]
@@ -479,12 +467,12 @@ depends-member:
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "AccessToken"]
 - !private ["So21UIAppearanceContainerP", "Auth"]
-- !private ["So21UIAppearanceContainerP", "FBSDKAccessToken"]
-- !private ["So21UIAppearanceContainerP", "FBSDKGraphRequest"]
-- ["So21UIAppearanceContainerP", "FBSDKLoginManager"]
 - !private ["So21UIAppearanceContainerP", "FacebookAuthProvider"]
 - !private ["So21UIAppearanceContainerP", "GIDSignIn"]
+- !private ["So21UIAppearanceContainerP", "GraphRequest"]
+- ["So21UIAppearanceContainerP", "LoginManager"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "debugPrint"]
 - !private ["So21UIAppearanceContainerP", "init"]
@@ -497,12 +485,12 @@ depends-member:
 - ["So21UIAppearanceContainerP", "signInWillDispatch"]
 - !private ["So21UIAppearanceContainerP", "storyboard"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "AccessToken"]
 - !private ["So18UIContentContainerP", "Auth"]
-- !private ["So18UIContentContainerP", "FBSDKAccessToken"]
-- !private ["So18UIContentContainerP", "FBSDKGraphRequest"]
-- ["So18UIContentContainerP", "FBSDKLoginManager"]
 - !private ["So18UIContentContainerP", "FacebookAuthProvider"]
 - !private ["So18UIContentContainerP", "GIDSignIn"]
+- !private ["So18UIContentContainerP", "GraphRequest"]
+- ["So18UIContentContainerP", "LoginManager"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "debugPrint"]
 - !private ["So18UIContentContainerP", "init"]
@@ -515,12 +503,12 @@ depends-member:
 - ["So18UIContentContainerP", "signInWillDispatch"]
 - !private ["So18UIContentContainerP", "storyboard"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "AccessToken"]
 - !private ["So18UIFocusEnvironmentP", "Auth"]
-- !private ["So18UIFocusEnvironmentP", "FBSDKAccessToken"]
-- !private ["So18UIFocusEnvironmentP", "FBSDKGraphRequest"]
-- ["So18UIFocusEnvironmentP", "FBSDKLoginManager"]
 - !private ["So18UIFocusEnvironmentP", "FacebookAuthProvider"]
 - !private ["So18UIFocusEnvironmentP", "GIDSignIn"]
+- !private ["So18UIFocusEnvironmentP", "GraphRequest"]
+- ["So18UIFocusEnvironmentP", "LoginManager"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "debugPrint"]
 - !private ["So18UIFocusEnvironmentP", "init"]
@@ -533,12 +521,12 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "signInWillDispatch"]
 - !private ["So18UIFocusEnvironmentP", "storyboard"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "AccessToken"]
 - !private ["So30UIPasteConfigurationSupportingP", "Auth"]
-- !private ["So30UIPasteConfigurationSupportingP", "FBSDKAccessToken"]
-- !private ["So30UIPasteConfigurationSupportingP", "FBSDKGraphRequest"]
-- ["So30UIPasteConfigurationSupportingP", "FBSDKLoginManager"]
 - !private ["So30UIPasteConfigurationSupportingP", "FacebookAuthProvider"]
 - !private ["So30UIPasteConfigurationSupportingP", "GIDSignIn"]
+- !private ["So30UIPasteConfigurationSupportingP", "GraphRequest"]
+- ["So30UIPasteConfigurationSupportingP", "LoginManager"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "debugPrint"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
@@ -551,17 +539,17 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "signInWillDispatch"]
 - !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AccessToken"]
 - !private ["So11UIResponderC", "AnyObject"]
 - !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "AuthCredential"]
 - ["So11UIResponderC", "Error"]
-- !private ["So11UIResponderC", "FBSDKAccessToken"]
-- !private ["So11UIResponderC", "FBSDKGraphRequest"]
-- ["So11UIResponderC", "FBSDKLoginButton"]
-- ["So11UIResponderC", "FBSDKLoginManager"]
-- ["So11UIResponderC", "FBSDKLoginManagerLoginResult"]
+- ["So11UIResponderC", "FBLoginButton"]
 - !private ["So11UIResponderC", "FacebookAuthProvider"]
 - !private ["So11UIResponderC", "GIDSignIn"]
+- !private ["So11UIResponderC", "GraphRequest"]
+- ["So11UIResponderC", "LoginManager"]
+- ["So11UIResponderC", "LoginManagerLoginResult"]
 - !private ["So11UIResponderC", "NSDictionary"]
 - !private ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIButton"]
@@ -585,12 +573,12 @@ depends-member:
 - !private ["So11UIResponderC", "storyboard"]
 - ["So11UIResponderC", "trueGrowthLogo"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AccessToken"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
-- !private ["So30UIResponderStandardEditActionsP", "FBSDKAccessToken"]
-- !private ["So30UIResponderStandardEditActionsP", "FBSDKGraphRequest"]
-- ["So30UIResponderStandardEditActionsP", "FBSDKLoginManager"]
 - !private ["So30UIResponderStandardEditActionsP", "FacebookAuthProvider"]
 - !private ["So30UIResponderStandardEditActionsP", "GIDSignIn"]
+- !private ["So30UIResponderStandardEditActionsP", "GraphRequest"]
+- ["So30UIResponderStandardEditActionsP", "LoginManager"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "debugPrint"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
@@ -603,12 +591,12 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "signInWillDispatch"]
 - !private ["So30UIResponderStandardEditActionsP", "storyboard"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "AccessToken"]
 - !private ["So16UIStateRestoringP", "Auth"]
-- !private ["So16UIStateRestoringP", "FBSDKAccessToken"]
-- !private ["So16UIStateRestoringP", "FBSDKGraphRequest"]
-- ["So16UIStateRestoringP", "FBSDKLoginManager"]
 - !private ["So16UIStateRestoringP", "FacebookAuthProvider"]
 - !private ["So16UIStateRestoringP", "GIDSignIn"]
+- !private ["So16UIStateRestoringP", "GraphRequest"]
+- ["So16UIStateRestoringP", "LoginManager"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "debugPrint"]
 - !private ["So16UIStateRestoringP", "init"]
@@ -622,12 +610,12 @@ depends-member:
 - !private ["So16UIStateRestoringP", "storyboard"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "AccessToken"]
 - !private ["So18UITraitEnvironmentP", "Auth"]
-- !private ["So18UITraitEnvironmentP", "FBSDKAccessToken"]
-- !private ["So18UITraitEnvironmentP", "FBSDKGraphRequest"]
-- ["So18UITraitEnvironmentP", "FBSDKLoginManager"]
 - !private ["So18UITraitEnvironmentP", "FacebookAuthProvider"]
 - !private ["So18UITraitEnvironmentP", "GIDSignIn"]
+- !private ["So18UITraitEnvironmentP", "GraphRequest"]
+- ["So18UITraitEnvironmentP", "LoginManager"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "debugPrint"]
 - !private ["So18UITraitEnvironmentP", "init"]
@@ -640,12 +628,12 @@ depends-member:
 - ["So18UITraitEnvironmentP", "signInWillDispatch"]
 - !private ["So18UITraitEnvironmentP", "storyboard"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "AccessToken"]
 - !private ["So23UIUserActivityRestoringP", "Auth"]
-- !private ["So23UIUserActivityRestoringP", "FBSDKAccessToken"]
-- !private ["So23UIUserActivityRestoringP", "FBSDKGraphRequest"]
-- ["So23UIUserActivityRestoringP", "FBSDKLoginManager"]
 - !private ["So23UIUserActivityRestoringP", "FacebookAuthProvider"]
 - !private ["So23UIUserActivityRestoringP", "GIDSignIn"]
+- !private ["So23UIUserActivityRestoringP", "GraphRequest"]
+- ["So23UIUserActivityRestoringP", "LoginManager"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "debugPrint"]
 - !private ["So23UIUserActivityRestoringP", "init"]
@@ -658,17 +646,17 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "signInWillDispatch"]
 - !private ["So23UIUserActivityRestoringP", "storyboard"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "AccessToken"]
 - !private ["So16UIViewControllerC", "AnyObject"]
 - !private ["So16UIViewControllerC", "Auth"]
 - ["So16UIViewControllerC", "AuthCredential"]
 - ["So16UIViewControllerC", "Error"]
-- !private ["So16UIViewControllerC", "FBSDKAccessToken"]
-- !private ["So16UIViewControllerC", "FBSDKGraphRequest"]
-- ["So16UIViewControllerC", "FBSDKLoginButton"]
-- ["So16UIViewControllerC", "FBSDKLoginManager"]
-- ["So16UIViewControllerC", "FBSDKLoginManagerLoginResult"]
+- ["So16UIViewControllerC", "FBLoginButton"]
 - !private ["So16UIViewControllerC", "FacebookAuthProvider"]
 - !private ["So16UIViewControllerC", "GIDSignIn"]
+- !private ["So16UIViewControllerC", "GraphRequest"]
+- ["So16UIViewControllerC", "LoginManager"]
+- ["So16UIViewControllerC", "LoginManagerLoginResult"]
 - !private ["So16UIViewControllerC", "NSDictionary"]
 - !private ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UIButton"]
@@ -707,12 +695,12 @@ depends-member:
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AccessToken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKAccessToken"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKGraphRequest"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKLoginManager"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FacebookAuthProvider"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GraphRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LoginManager"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "credential"]
@@ -743,20 +731,19 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "start"]
 - !private ["s21_ObjectiveCBridgeableP", "token"]
-- !private ["s21_ObjectiveCBridgeableP", "tokenString"]
 - !private ["s21_ObjectiveCBridgeableP", "uiDelegate"]
 - !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
-- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "So16FBSDKAccessTokenC"
 - !private "So7FIRAuthC"
 - !private "SK"
 - !private "Sb"
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
+- !private "So12FBSDKCopyingP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -771,15 +758,13 @@ depends-nominal:
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "So16FBSDKAccessTokenC"
-- !private "So12FBSDKCopyingP"
-- !private "So17FBSDKGraphRequestC"
-- "So17FBSDKLoginManagerC"
-- !private "So28FBSDKLoginManagerLoginResultC"
 - !private "So23FIRFacebookAuthProviderC"
 - !private "So9GIDSignInC"
 - "So19GIDSignInUIDelegateP"
+- !private "So17FBSDKGraphRequestC"
 - "SH"
+- "So17FBSDKLoginManagerC"
+- !private "So28FBSDKLoginManagerLoginResultC"
 - "13TrueGrowthSF219LoginViewControllerC"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
@@ -826,8 +811,8 @@ depends-dynamic-lookup:
 - !private "replacingOccurrences"
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/FBSDKLoginKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -842,32 +827,26 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceViewControllerBase.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
@@ -875,15 +854,12 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
@@ -893,17 +869,15 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKDeviceButton.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
@@ -920,15 +894,12 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
@@ -938,17 +909,14 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-Swift.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-Swift.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
@@ -957,15 +925,14 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKCoreKitImport.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
@@ -974,13 +941,10 @@ depends-external:
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
@@ -995,4 +959,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4a1c62eb9b4dad1ab9fd213adcd3ba39"
+interface-hash: "f505479913dd04e8183f66899239c9e1"

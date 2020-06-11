@@ -5,7 +5,7 @@ dependencies: \
   /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKViewImpressionTracker.h \
   /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h \
   /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/FBSDKAppEvents+Internal.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/FBSDKAppEventsUtility.h
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEvents+Internal.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsUtility.h

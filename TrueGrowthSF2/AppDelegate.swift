@@ -8,19 +8,14 @@
 
 import UIKit
 import Firebase
-import FacebookCore
-import FBSDKLoginKit
 import GoogleSignIn
+import FBSDKCoreKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
-    
-    
-    
-    
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = [:]) -> Bool {
         // Override point for customization after application launch.
@@ -38,9 +33,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
                 self.window?.makeKeyAndVisible()
             }
         } */
+        
+        
 
-        //FB Login
-        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        // OLD FB Login *******   OLD FB Login  *******    OLD FB Login  ******  OLD FB Login
+        
+        //FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        
+        // NEW FACEBOOK LOGIN JUNE 2O20!!!!  NEW FACEBOOK LOGIN JUNE 2O20!!!   NEW FACEBOOK LOGIN JUNE 2O20
+        
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
         
         return true
     }
@@ -89,18 +95,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             //self.window?.rootViewController = TabBC
             //self.window?.makeKeyAndVisible()
 
-
-
         }
     }
+
+    
+    // **** OLD FACEBOOK FUNCTION ***** **** OLD FACEBOOK FUNCTION ***** **** OLD FACEBOOK FUNCTION *****
+    
+//    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+//        let returnFB = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+//
+//        return returnFB
+//    }
     
     
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        let returnFB = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+    
+    // **** NEW FACEBOOK FUNCTION ****    **** NEW FACEBOOK FUNCTION ****    **** NEW FACEBOOK FUNCTION ****
+    
+    func application(
+        _ app: UIApplication,
+        open url: URL,
+        options: [UIApplication.OpenURLOptionsKey : Any] = [:]
+        ) -> Bool {
         
-        return returnFB
+        ApplicationDelegate.shared.application(
+            app,
+            open: url,
+            sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+            annotation: options[UIApplication.OpenURLOptionsKey.annotation]
+        )
+        
+        return true
+        
     }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -118,7 +146,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-        AppEventsLogger.activate(application)
+        //AppEventsLogger.activate(application)
+        AppEvents.activateApp()
 
     }
 
