@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>GTU3MN4DTE.Telegraph-Hill-Technologies.TrueGrowthSF2</string>
+	<string>GTU3MN4DTE.agileassociates.TrueGrowthSF2</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>GTU3MN4DTE.Telegraph-Hill-Technologies.TrueGrowthSF2</string>
+		<string>GTU3MN4DTE.agileassociates.TrueGrowthSF2</string>
 	</array>
 </dict>
 </plist>

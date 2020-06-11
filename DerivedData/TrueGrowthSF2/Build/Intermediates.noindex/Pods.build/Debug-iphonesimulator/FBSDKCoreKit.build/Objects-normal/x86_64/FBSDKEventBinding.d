@@ -1,13 +1,14 @@
 dependencies: \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/Codeless/FBSDKEventBinding.m \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKEventBinding.m \
   /Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap \
   /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Target\ Support\ Files/FBSDKCoreKit/FBSDKCoreKit-prefix.pch \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/Codeless/FBSDKEventBinding.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/FBSDKAppEventsUtility.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/Codeless/FBSDKCodelessMacros.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/Codeless/FBSDKCodelessParameterComponent.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/Codeless/FBSDKCodelessPathComponent.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKEventBinding.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsUtility.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessParameterComponent.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessPathComponent.h \
   /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKSwizzler.h \
-  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/AppEvents/Codeless/FBSDKViewHierarchy.h
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchy.h \
+  /Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchyMacros.h

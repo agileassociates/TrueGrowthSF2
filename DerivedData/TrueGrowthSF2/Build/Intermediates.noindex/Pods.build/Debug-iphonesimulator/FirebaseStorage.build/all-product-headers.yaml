@@ -4,118 +4,6 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "BFAppLink.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFAppLink.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFAppLinkNavigation.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFAppLinkResolving.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFAppLinkReturnToRefererController.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFAppLinkReturnToRefererView.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFAppLinkTarget.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFCancellationToken.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFCancellationTokenRegistration.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFCancellationTokenSource.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFExecutor.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/BFExecutor.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFGeneric.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/BFGeneric.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFMeasurementEvent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFTask.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/BFTask.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFTaskCompletionSource.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFURL.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFURL.h"
-        },
-        {
-          'type': 'file',
-          'name': "BFWebViewAppLinkResolver.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
-        },
-        {
-          'type': 'file',
-          'name': "Bolts-Swift.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "Bolts-umbrella.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
-        },
-        {
-          'type': 'file',
-          'name': "Bolts.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Bolts/Bolts/Common/Bolts.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
       'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers",
       'contents': [
         {
@@ -126,47 +14,47 @@
         {
           'type': 'file',
           'name': "FBSDKAppEvents.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLink.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLink.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLinkNavigation.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLinkResolver.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolver.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLinkResolving.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolving.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLinkReturnToRefererController.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererController.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLinkReturnToRefererView.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererView.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLinkTarget.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkTarget.h"
         },
         {
           'type': 'file',
           'name': "FBSDKAppLinkUtility.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkUtility.h"
         },
         {
           'type': 'file',
@@ -205,28 +93,33 @@
         },
         {
           'type': 'file',
+          'name': "FBSDKDeviceButton.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceViewControllerBase.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.h"
+        },
+        {
+          'type': 'file',
           'name': "FBSDKGraphErrorRecoveryProcessor.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.h"
         },
         {
           'type': 'file',
           'name': "FBSDKGraphRequest.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequest.h"
         },
         {
           'type': 'file',
           'name': "FBSDKGraphRequestConnection.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.h"
         },
         {
           'type': 'file',
           'name': "FBSDKGraphRequestDataAttachment.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKMacros.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestDataAttachment.h"
         },
         {
           'type': 'file',
@@ -271,7 +164,7 @@
         {
           'type': 'file',
           'name': "FBSDKWebViewAppLinkResolver.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKWebViewAppLinkResolver.h"
         }
       ]
     },
@@ -288,8 +181,604 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKAccessTokenCache.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAccessTokenCaching.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenCaching.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAccessTokenExpirer.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenExpirer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppEvents+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEvents+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppEventsDeviceInfo.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsDeviceInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppEventsState.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsState.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppEventsStateManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsStateManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppEventsUtility.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkReturnToRefererView_Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKAppLinkReturnToRefererView_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLink_Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKAppLink_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKApplicationDelegate+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKApplicationDelegate+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKApplicationObserving.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKApplicationObserving.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAudioResourceLoader.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKAudioResourceLoader.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBase64.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Base64/FBSDKBase64.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBasicUtility.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Basics/Internal/FBSDKBasicUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPI.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPI.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIProtocol.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIProtocolNativeV1.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/ProtocolVersions/FBSDKBridgeAPIProtocolNativeV1.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIProtocolType.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIProtocolType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIProtocolWebV1.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/ProtocolVersions/FBSDKBridgeAPIProtocolWebV1.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIProtocolWebV2.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/ProtocolVersions/FBSDKBridgeAPIProtocolWebV2.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIRequest+Private.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIRequest+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIRequest.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKBridgeAPIResponse.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKButton+Subclass.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKButton+Subclass.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCloseIcon.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKCloseIcon.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCodelessIndexer.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessIndexer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCodelessParameterComponent.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessParameterComponent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCodelessPathComponent.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessPathComponent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKColor.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKColor.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKContainerViewController.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKContainerViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKCoreKit+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCrashHandler.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Basics/Instrument/FBSDKCrashHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCrashObserver.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/CrashReport/FBSDKCrashObserver.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCrashObserving.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Basics/Instrument/FBSDKCrashObserving.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCrashShield.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/CrashReport/FBSDKCrashShield.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCrypto.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Cryptography/FBSDKCrypto.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceButton+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceButton+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceDialogView.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceDialogView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceRequestsHelper.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKDeviceRequestsHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceUtilities.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceViewControllerBase+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceViewControllerBase+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDialogConfiguration.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKDialogConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDynamicFrameworkLoader.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKDynamicFrameworkLoader.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKError.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKError.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKErrorConfiguration.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKErrorConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKErrorRecoveryAttempter.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ErrorRecovery/FBSDKErrorRecoveryAttempter.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKErrorRecoveryConfiguration.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKErrorRecoveryConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKErrorReport.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/ErrorReport/FBSDKErrorReport.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKEventBinding.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKEventBinding.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKEventBindingManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKEventBindingManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKEventDeactivationManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/EventDeactivation/FBSDKEventDeactivationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKFeatureExtractor.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/SuggestedEvents/FBSDKFeatureExtractor.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKFeatureManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKFeatureManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGateKeeperManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKGateKeeperManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequest+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequest+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestBody.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequestBody.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestConnection+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequestConnection+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestMetadata.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequestMetadata.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestPiggybackManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequestPiggybackManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKHybridAppEventsScriptMessageHandler.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKHybridAppEventsScriptMessageHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKIcon.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKIcon.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKImageDownloader.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKInstrumentManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/FBSDKInstrumentManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKIntegrityManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Integrity/FBSDKIntegrityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKInternalUtility.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKInternalUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKKeychainStore.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKKeychainStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKKeychainStoreViaBundleID.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKKeychainStoreViaBundleID.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLibAnalyzer.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Basics/Instrument/FBSDKLibAnalyzer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLogger.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLogo.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKLogo.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMLMacros.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ML/FBSDKMLMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMaleSilhouetteIcon.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKMaleSilhouetteIcon.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMath.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKMath.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMeasurementEvent_Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKMeasurementEvent_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMetadataIndexer.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/AAM/FBSDKMetadataIndexer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMethodUsageMonitor.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMethodUsageMonitor.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMethodUsageMonitorEntry.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMethodUsageMonitorEntry.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKModalFormPresentationController.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKModalFormPresentationController.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKModelManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ML/FBSDKModelManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKModelParser.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ML/FBSDKModelParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKModelUtility.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ML/FBSDKModelUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMonitor.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitor.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMonitorEntry.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitorEntry.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMonitorHeaders.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitorHeaders.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMonitorNetworker.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitorNetworker.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMonitorStore.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitorStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMonitoringConfiguration.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKMonitoringConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMonotonicTime.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKMonotonicTime.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKPaymentObserver.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKPaymentObserver.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKPerformanceMonitor.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKPerformanceMonitor.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKPerformanceMonitorEntry.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Monitoring/FBSDKPerformanceMonitorEntry.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKProfile+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKProfile+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKRestrictiveDataFilterManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Integrity/FBSDKRestrictiveDataFilterManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKServerConfiguration+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKServerConfiguration+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKServerConfiguration.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKServerConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKServerConfigurationManager+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKServerConfigurationManager+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKServerConfigurationManager.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKServerConfigurationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSettings+Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKSettings+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSmartDeviceDialogView.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKSmartDeviceDialogView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSuggestedEventsIndexer.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/SuggestedEvents/FBSDKSuggestedEventsIndexer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSwizzler.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKSwizzler.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKTimeSpentData.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKTimeSpentData.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKTriStateBOOL.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKTriStateBOOL.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKTypeUtility.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Basics/Internal/FBSDKTypeUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKUIUtility.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKUIUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKURLOpening.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKURLOpening.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKURLSession.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Basics/Internal/FBSDKURLSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKURLSessionTask.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Basics/Internal/FBSDKURLSessionTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKURL_Internal.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKURL_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKUserDataStore.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKUserDataStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKViewHierarchy.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchy.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKViewHierarchyMacros.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchyMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKViewImpressionTracker.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/UI/FBSDKViewImpressionTracker.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKWebDialog.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/WebDialog/FBSDKWebDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKWebDialogView.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/WebDialog/FBSDKWebDialogView.h"
+        },
+        {
+          'type': 'file',
+          'name': "_FBSDKTemporaryErrorRecoveryAttempter.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/ErrorRecovery/_FBSDKTemporaryErrorRecoveryAttempter.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers",
       'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKitImport.h",
+          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKCoreKitImport.h"
+        },
         {
           'type': 'file',
           'name': "FBSDKDeviceLoginCodeInfo.h",
@@ -360,334 +849,6 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBSDKLoginKit.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "FBSDKAppGroupAddDialog.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKAppGroupContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKAppGroupJoinDialog.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKAppInviteContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKAppInviteDialog.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKCameraEffectArguments.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectArguments.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKCameraEffectTextures.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectTextures.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKGameRequestContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKGameRequestDialog.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKHashtag.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKLikeButton.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKLikeControl.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKLikeObjectType.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKLiking.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKMessageDialog.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSendButton.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareAPI.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareButton.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareCameraEffectContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareCameraEffectContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareConstants.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareDialog.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareDialogMode.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareKit-Swift.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareKit-umbrella.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareKit.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareLinkContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareMediaContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareMessengerActionButton.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerActionButton.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareMessengerGenericTemplateContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareMessengerGenericTemplateElement.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareMessengerMediaTemplateContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareMessengerOpenGraphMusicTemplateContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareMessengerURLActionButton.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareOpenGraphAction.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareOpenGraphContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareOpenGraphObject.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareOpenGraphValueContainer.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSharePhoto.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSharePhotoContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareVideo.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKShareVideoContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSharing.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSharingButton.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSharingContent.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSharingScheme.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingScheme.h"
-        },
-        {
-          'type': 'file',
-          'name': "FBSDKSharingValidation.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingValidation.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBSDKShareKit.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "FacebookCore-Swift.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "FacebookCore-umbrella.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FacebookCore.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "FacebookLogin-Swift.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "FacebookLogin-umbrella.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Target Support Files/FacebookLogin/FacebookLogin-umbrella.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FacebookLogin.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookShare/FacebookShare.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "FacebookShare-Swift.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookShare/FacebookShare.framework/Headers/FacebookShare-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "FacebookShare-umbrella.h",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/Pods/Target Support Files/FacebookShare/FacebookShare-umbrella.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Products/Debug-iphonesimulator/FacebookShare/FacebookShare.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/Home/Desktop/iOS/TrueGrowthSF2/DerivedData/TrueGrowthSF2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FacebookShare.build/module.modulemap"
         }
       ]
     },
