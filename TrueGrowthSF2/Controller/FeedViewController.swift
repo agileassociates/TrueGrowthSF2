@@ -97,7 +97,6 @@ class FeedViewController: UIViewController, UIImagePickerControllerDelegate, UIN
 extension FeedViewController: UITableViewDataSource {
     
     @IBAction func likedBtnPressed(_ sender: UIButton) {
-        
         var superview = sender.superview
         while let view = superview, !(view is UITableViewCell) {
             superview = view.superview
@@ -110,7 +109,6 @@ extension FeedViewController: UITableViewDataSource {
             print("failed to get index path for cell containing button")
             return
         }
-        
         let currentUser = Auth.auth().currentUser
         let ref = Database.database().reference()
         let postsReference = ref.child("likes")
@@ -144,10 +142,11 @@ extension FeedViewController: UITableViewDataSource {
             print(self.posts[indexPath.row].photoUrl)
             // cell.likedImageView.image = UIImage(named: "yellow_like")
             //cell.likeButton.image = UIImage(named: "yellow_like")
-            sender.setImage(UIImage(named: "did _like"), for: UIControl.State.normal)
+            sender.setImage(UIImage(named: "yellow_like"), for: UIControl.State.normal)
             self.tableView.reloadData()
         })
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
@@ -171,27 +170,19 @@ extension FeedViewController: UITableViewDataSource {
             
             }).resume()
 //        cell.likedImageView.tag = indexPath.row
-//        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+         //let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
 //        cell.likedImageView.isUserInteractionEnabled = true
 //        cell.likedImageView.addGestureRecognizer(tapGestureRecognizer)
+        //imageTapped(tapGestureRecognizer: tapGestureRecognizer)
         return cell
     }
     
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer){
-        //let tappedImage = tapGestureRecognizer.view as! UIImageView
-        // Your action
         print("hi")
         let touch = tapGestureRecognizer.location(in: tableView)
         if let indexPath = tableView.indexPathForRow(at: touch) {
             // Access the image or the cell at this index path
             let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell", for: indexPath) as! FeedViewCell
-
-            
-//            let image = UIImage(named: "yellow_like")?.withRenderingMode(.alwaysTemplate)
-//            cell.likedImageView.tintColor = .yellow
-//            cell.likedImageView.image = image
-//            print("******THIS IS YELLOW ****************THIS IS YELLOW")
-//
             let currentUser = Auth.auth().currentUser
             let ref = Database.database().reference()
             let postsReference = ref.child("likes")
@@ -199,7 +190,6 @@ extension FeedViewController: UITableViewDataSource {
             let newPostReference = postsReference.child(newPostId!)
             var count = 0
             for like in self.likes {
-
                 if like.photoUrl == self.posts[indexPath.row].photoUrl && like.uid == self.likes[count].uid {
                 print("\n\n\n\n\n\n\n ****THIS IS THE SAME**** ****THIS IS THE SAME****" )
                     let key = like.uuid
@@ -221,7 +211,7 @@ extension FeedViewController: UITableViewDataSource {
                         print("success")
                         print(currentUser?.uid)
                         print(self.posts[indexPath.row].photoUrl)
-                       // cell.likedImageView.image = UIImage(named: "yellow_like")
+                //cell.photoImageView.image = UIImage(named: "zoe")
                 self.tableView.reloadData()
 
             })
