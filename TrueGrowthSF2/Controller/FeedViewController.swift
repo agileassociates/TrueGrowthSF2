@@ -47,18 +47,23 @@ class FeedViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         //loadLikeKeys()
         loadPosts()
         loadLikes()
+        print(posts.description)
+        dump(self.posts)
+
         print("end of view controller")
 
     }
     
-    func loadLikeKeys() {
-        let likesRef = Database.database().reference(withPath: "likes")
-        print("This is LikeKeys func:       \n\n\n\n\n\n\n\n\n")
-        //print("this is the acutal LikeKeys:  ", likesRef.uid)
-        print("\n\n\n\n\n\n\n\n\nGoodbye........\n\n\n\n\n\n\n\n\n")
-    }
+    
+//    func loadLikeKeys() {
+//        let likesRef = Database.database().reference(withPath: "likes")
+//        print("This is LikeKeys func:       \n\n\n\n\n\n\n\n\n")
+//        //print("this is the acutal LikeKeys:  ", likesRef.uid)
+//        print("\n\n\n\n\n\n\n\n\nGoodbye........\n\n\n\n\n\n\n\n\n")
+//    }
     
     func loadPosts() {
+        print("  LOAD POSTS...       LOAD POSTS.... LOAD POSTS.... \n\n\n\n\n")
         Database.database().reference().child("posts").observe(.childAdded, with: { snapshot in
             if let dict = snapshot.value as? [String: Any] {
                 //print(dict)
@@ -67,13 +72,19 @@ class FeedViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                 let emailText = dict["email"] as! String
                 let post = Post(captionString: captionText, photoUrlString: photoUrlText, emailString: emailText)
                 self.posts.append(post)
-                print(self.posts.description)
-                self.tableView.reloadData()
+                //self.tableView.reloadData()
             }
+            
         })
+        print("post discription>>>>    ",self.posts.description)
+        
+        dump(self.posts)
+        print("\n\n..........dump the posts array in the  load posts func...................\n\n")
+        
     }
     
     func loadLikes() {
+        
         Database.database().reference().child("likes").observe(.childAdded, with: { snapshot in
             if let dict = snapshot.value as? [String: Any] {
                 //print(dict)
@@ -91,6 +102,12 @@ class FeedViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+   
+        print("this is the numberof  posts ...", self.posts.count)
+    }
+
     
 }
 
@@ -151,11 +168,26 @@ extension FeedViewController: UITableViewDataSource {
         return posts.count
     }
     
+    
+    
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let currentUser = Auth.auth().currentUser
+
         let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell", for: indexPath) as! FeedViewCell
         cell.emailLabel?.text = posts[indexPath.row].email
         //cell.emailCellLabel?.text =
         //cell.photoImageView?.image = UIImage(named: "bobby")
+        for like in self.likes {
+            if posts[indexPath.row].photoUrl == like.photoUrl && like.uid == currentUser?.uid{
+            cell.likeButton.setImage(UIImage(named: "yellow_like"),for: UIControl.State.normal)
+            
+            print("\n\n you're in the cell now...this is iteration ", indexPath.row)
+            print("\n\n posts[0].photo url = ", posts[0].photoUrl)
+            print("\n\n posts[indexpath]url = ", posts[indexPath.row].photoUrl)
+            print("\n like.photoUrl =  ", like.photoUrl)
+            }
+        }
         let photoImage = posts[indexPath.row].photoUrl
         let url = NSURL(string: photoImage)
         URLSession.shared.dataTask(with: url! as URL, completionHandler: { (data, response, error) in
@@ -176,6 +208,18 @@ extension FeedViewController: UITableViewDataSource {
         //imageTapped(tapGestureRecognizer: tapGestureRecognizer)
         return cell
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer){
         print("hi")
@@ -236,6 +280,8 @@ extension UIImage {
         return image
     }
 }
-    
+
+
+
     
 
